@@ -1,0 +1,131 @@
+.hamburger-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 3em;
+  height: auto;
+  position: relative;
+  z-index: 10;
+  transition: 0.3s;
+  color: #181818;
+  line-height: 0.5;
+  font-size: 30px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hamburger-button:hover {
+  color: #7088a0;
+  transition: 0.3s;
+}
+
+/* cuando está abierta */
+.hamburger-button.open {
+  background-image: url("../images/cerrar.svg");
+  color: transparent;
+  z-index: 100;
+  opacity: 0.65;
+  transition: 0.5s;
+}
+
+.hamburger-button.open:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/* panel cerrado */
+.panel {
+    border: 0px transparent;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    opacity: 1;
+    padding: 6.5em 2em;
+    width: 500px;
+    border-radius: 0px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: none;
+    visibility: hidden;
+}
+
+/* panel abierto */
+.panel.open {
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.panel ul {
+  margin: 0 auto;
+}
+
+.panel.open::after {
+  content: "";
+  background: black;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 1;
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.3s;
+  pointer-events: none;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.open {
+  transition: 0.3s;
+}
+
+.panel .redes a img {
+  margin: 5px;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  margin-top:10px;
+  opacity: 0.6;
+  width: 40px;
+  height: 40px;
+}
+
+.panel .redes a img:hover {
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+   -webkit-transform:scale(1.20); /* Safari and Chrome */
+    -moz-transform:scale(1.20); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:scale(1.20); /* Opera */
+     transform:scale(1.20);
+     opacity: 1;
+}
+
+.redes {
+  margin: auto;
+  justify-content: space-around;
+}
+
+.panel hr {
+  border-color: white;
+  width: 100%;
+  margin: 2em auto;
+}
+
+.panel .logo {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.panel .logo:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
