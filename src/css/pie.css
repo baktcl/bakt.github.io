@@ -73,3 +73,9 @@
 .espacio-pie {
     margin: 2rem 0!important;
 }
+
+@media (min-width: 320px) and (max-width: 768px) { 
+    .pie {
+        padding: 2.5rem;
+    }
+}

@@ -69,3 +69,19 @@
     opacity: 0;
   }
 }
+
+
+@media (min-width: 320px) and (max-width: 768px) { 
+    .about-text {
+      padding: 1rem;
+    }
+    .animated-text {
+        height: 110px;
+    }
+    .animated-item {
+      left: 0;
+    }
+    .about {
+      padding: 1rem 0;
+    }
+}
