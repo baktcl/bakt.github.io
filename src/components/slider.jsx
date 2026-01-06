@@ -20,6 +20,7 @@ import Sakura from "../images/logos/Logos_Cards_Sitio_Beneficios_Sakura.png";
 export default function SimpleSlider() {
   var settings = {
     dots: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
