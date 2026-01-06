@@ -224,3 +224,10 @@
 .navegacion .container {
   max-width: 1120px;
 }
+
+@media (min-width: 320px) and (max-width: 768px) { 
+    .navegacion .fh5co-top-logo {
+        left: 2rem;
+    }
+
+}

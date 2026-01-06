@@ -8,7 +8,7 @@ function perfil() {
     <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
         <div class="container">
             <div class="row"> 
-                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                <div class="col-lg-7 col-md-12 col-12 align-items-center">
                     <div class="about-text">
                         <div class="animated animated-text">
                             <a name="Perfil" id="a"></a>
