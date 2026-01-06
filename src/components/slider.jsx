@@ -33,6 +33,10 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Guess} alt="logo" width="200"/>
         <h3>Guess - 2021</h3>
+        <p>Sitio web desarrollado a través de la agencia Ecomsur.<br/>Es una actualización de su sitio web antiguo siguiendo los lineamientos del sitio web internacional.</p>
+        <a href="https://www.guess.cl/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
         <div class="skills">
             <p class="html habilidad">HTML5</p>
             <p class="css habilidad">CSS3</p>
@@ -40,14 +44,14 @@ export default function SimpleSlider() {
             <p class="bootstrap habilidad">Bootstrap</p>
             <p class="vtex habilidad">VTEX</p>
         </div>
-        <p>Sitio web desarrollado a través de la agencia Ecomsur.<br/>Es una actualización de su sitio web antiguo siguiendo los lineamientos del sitio web internacional.</p>
-        <a href="https://www.guess.cl/" rel="noreferrer" target="_blank">
-          <button class="custom-btn custom-btn-bg">Ir a la web</button>
-        </a>
       </div>
       <div class="proyecto">
         <img src={Unired} alt="logo" width="200"/>
         <h3>Unired - 2024</h3>
+        <p>Sitio web desarrollado a través de la agencia Anticipa. <br/>Actualización del sitio web en base a nuevos diseños y colores corporativos.</p>
+        <a href="https://www.unired.cl/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
         <div class="skills">
             <p class="html habilidad">HTML5</p>
             <p class="css habilidad">CSS3</p>
@@ -55,10 +59,6 @@ export default function SimpleSlider() {
             <p class="bootstrap habilidad">Bootstrap</p>
             <p class="angular habilidad">Angular</p>
         </div>
-        <p>Sitio web desarrollado a través de la agencia Anticipa. <br/>Actualización del sitio web en base a nuevos diseños y colores corporativos.</p>
-        <a href="https://www.unired.cl/" rel="noreferrer" target="_blank">
-          <button class="custom-btn custom-btn-bg">Ir a la web</button>
-        </a>
       </div>
       <div class="proyecto">
         <h2>3</h2>

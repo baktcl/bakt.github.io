@@ -1,8 +1,11 @@
-.proyecto img,
 .proyecto h2,
 .proyecto p,
-.proyecto button {
+.proyecto img {
     margin: 1rem;
+}
+
+.proyecto button {
+    margin: 0.5rem 1rem 1.5rem 1rem;
 }
 
 .proyectos {
