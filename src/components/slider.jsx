@@ -132,11 +132,12 @@ export default function SimpleSlider() {
             <img src={wordpress} alt="logo" width="40"/>
         </div>
       </div>
+
       <div class="proyecto">
         <img src={Capitaria} alt="logo" width="200" style={{margin:'0'}} />
         <h3>Capitaria (2015)</h3>
         <p>Sitio web no disponible actualmente. Adjunto maqueta formato landing page para ventas.</p>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a href="https://bakt.cl/Proyectos/Capitaria/" rel="noreferrer" target="_blank">
           <button class="custom-btn custom-btn-bg">Ir a la web</button>
         </a>
         <div class="skills">
