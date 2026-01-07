@@ -17,12 +17,21 @@ import Fonasa from "../images/logos/fonasa-1-1 Large.png";
 import Providencia from "../images/logos/Logo-municipal-2025-W2.png";
 import Sakura from "../images/logos/Logos_Cards_Sitio_Beneficios_Sakura.png";
 
+import html from "../images/skills/html5-logo.svg";
+import css from "../images/skills/css3-logo.svg";
+import js from "../images/skills/javascript-logo.svg";
+import bootstrap from "../images/skills/bootstrap-logo.svg";
+import angular from "../images/skills/angular-logo.svg";
+import react from "../images/skills/logo-react.svg";
+import wordpress from "../images/skills/logo-wordpress.svg";
+import vtex from "../images/skills/vtex_logo.svg";
+
 export default function SimpleSlider() {
   var settings = {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 500,
+    speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -39,11 +48,11 @@ export default function SimpleSlider() {
           <button class="custom-btn custom-btn-bg">Ir a la web</button>
         </a>
         <div class="skills">
-            <p class="html habilidad">HTML5</p>
-            <p class="css habilidad">CSS3</p>
-            <p class="js habilidad">JS</p>
-            <p class="bootstrap habilidad">Bootstrap</p>
-            <p class="vtex habilidad">VTEX</p>
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={js} alt="logo" width="40"/>
+            <img src={bootstrap} alt="logo" width="40"/>
+            <img src={vtex} alt="logo" width="40"/>
         </div>
       </div>
       <div class="proyecto">
@@ -54,11 +63,11 @@ export default function SimpleSlider() {
           <button class="custom-btn custom-btn-bg">Ir a la web</button>
         </a>
         <div class="skills">
-            <p class="html habilidad">HTML5</p>
-            <p class="css habilidad">CSS3</p>
-            <p class="js habilidad">JS</p>
-            <p class="bootstrap habilidad">Bootstrap</p>
-            <p class="angular habilidad">Angular</p>
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={js} alt="logo" width="40"/>
+            <img src={bootstrap} alt="logo" width="40"/>
+            <img src={angular} alt="logo" width="40"/>
         </div>
       </div>
       <div class="proyecto">
