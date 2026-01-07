@@ -57,3 +57,10 @@ $animationSpeed: 50s;
 .slide-track:hover {
   	animation-play-state: paused;
 }
+
+@media (max-width: 500px) { 
+
+	.slider .slide img {
+		max-width: 150px;
+	}
+}
