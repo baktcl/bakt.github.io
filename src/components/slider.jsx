@@ -10,11 +10,10 @@ import Capitaria from "../images/logos/logo-capitaria.png";
 import Fucoa from "../images/logos/MINAGRI_FUCOA_RGB_blanco.png";
 import Unired from "../images/logos/unired-seeklogo.svg";
 import Vitamina from "../images/logos/vitamina_logo.svg";
-import Sercotec from "../images/logos/Logo_Sercotec.svg";
+import Sercotec from "../images/logos/barrios-comerciales-sercotec2.png";
 import Construmart from "../images/logos/icon-construmart-vertical-colors Large.png";
 import Bata from "../images/logos/logo-Bata.svg";
 import Fonasa from "../images/logos/fonasa-1-1 Large.png";
-import Providencia from "../images/logos/Logo-municipal-2025-W2.png";
 import Sakura from "../images/logos/Logos_Cards_Sitio_Beneficios_Sakura.png";
 
 import html from "../images/skills/html5-logo.svg";
@@ -42,8 +41,8 @@ export default function SimpleSlider() {
     <Slider {...settings}>
       <div class="proyecto">
         <img src={Guess} alt="logo" width="200"/>
-        <h3>Guess - 2021</h3>
-        <p>Sitio web desarrollado a través de la agencia Ecomsur.<br/>Es una actualización de su sitio web antiguo siguiendo los lineamientos del sitio web internacional.</p>
+        <h3>Guess (2021)</h3>
+        <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
         <a href="https://www.guess.cl/" rel="noreferrer" target="_blank">
           <button class="custom-btn custom-btn-bg">Ir a la web</button>
         </a>
@@ -55,10 +54,11 @@ export default function SimpleSlider() {
             <img src={vtex} alt="logo" width="40"/>
         </div>
       </div>
+
       <div class="proyecto">
-        <img src={Unired} alt="logo" width="200"/>
-        <h3>Unired - 2024</h3>
-        <p>Sitio web desarrollado a través de la agencia Anticipa. <br/>Actualización del sitio web en base a nuevos diseños y colores corporativos.</p>
+        <img src={Unired} alt="logo" width="200" style={{margin:'0'}} />
+        <h3>Unired (2024)</h3>
+        <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
         <a href="https://www.unired.cl/" rel="noreferrer" target="_blank">
           <button class="custom-btn custom-btn-bg">Ir a la web</button>
         </a>
@@ -70,18 +70,145 @@ export default function SimpleSlider() {
             <img src={angular} alt="logo" width="40"/>
         </div>
       </div>
+
       <div class="proyecto">
-        <h2>3</h2>
+        <img src={Construmart} alt="logo" width="200" style={{margin:'0'}} />
+        <h3>Construmart (2021)</h3>
+        <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
+        <a href="https://www.construmart.cl/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
+        <div class="skills">
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={js} alt="logo" width="40"/>
+            <img src={bootstrap} alt="logo" width="40"/>
+            <img src={vtex} alt="logo" width="40"/>
+        </div>
+      </div>
+
+      <div class="proyecto">
+        <img src={Fucoa} alt="logo" width="200" style={{margin:'0'}} />
+        <h3>Chile Agrícola (2019)</h3>
+        <p>Sitio web desarrollado a través de Fucoa del ministerio de agricultura de Chile.</p>
+        <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
+        <div class="skills">
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={js} alt="logo" width="40"/>
+            <img src={bootstrap} alt="logo" width="40"/>
+            <img src={wordpress} alt="logo" width="40"/>
+        </div>
+      </div>
+
+      <div class="proyecto">
+        <img src={Colloky} alt="logo" width="200" style={{margin:'0'}} />
+        <h3>Colloky (2021)</h3>
+        <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
+        <a href="https://www.colloky.cl/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
+        <div class="skills">
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={js} alt="logo" width="40"/>
+            <img src={bootstrap} alt="logo" width="40"/>
+            <img src={vtex} alt="logo" width="40"/>
+        </div>
+      </div>
+
+      <div class="proyecto">
+        <img src={Vitamina} alt="logo" width="200" style={{margin:'0'}} />
+        <h3>Vitamina (2016)</h3>
+        <p>Sitio web desarrollado directamente con jardines infantiles Vitamina.</p>
+        <a href="https://www.vitamina.cl/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
+        <div class="skills">
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={wordpress} alt="logo" width="40"/>
+        </div>
       </div>
       <div class="proyecto">
-        <h2>4</h2>
+        <img src={Capitaria} alt="logo" width="200" style={{margin:'0'}} />
+        <h3>Capitaria (2015)</h3>
+        <p>Sitio web no disponible actualmente. Adjunto maqueta formato landing page para ventas.</p>
+        <a href="#" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
+        <div class="skills">
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={bootstrap} alt="logo" width="40"/>
+        </div>
       </div>
+
       <div class="proyecto">
-        <h2>5</h2>
+        <img src={Fonasa} alt="logo" width="200" style={{margin:'0'}} />
+        <h3>Fonasa (2023)</h3>
+        <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
+        <a href="https://nuevo.fonasa.gob.cl/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
+        <div class="skills">
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={js} alt="logo" width="40"/>
+            <img src={bootstrap} alt="logo" width="40"/>
+            <img src={wordpress} alt="logo" width="40"/>
+        </div>
       </div>
+
       <div class="proyecto">
-        <h2>6</h2>
+        <img src={Sakura} alt="logo" width="200" style={{margin:'0'}} />
+        <h3>Sakura (2024)</h3>
+        <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
+        <a href="https://www.sakuraexpress.cl/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
+        <div class="skills">
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={js} alt="logo" width="40"/>
+            <img src={bootstrap} alt="logo" width="40"/>
+            <img src={angular} alt="logo" width="40"/>
+        </div>
       </div>
+
+      <div class="proyecto">
+        <img src={Sercotec} alt="logo" width="200" style={{margin:'0'}} />
+        <h3>Barrios comerciales (2018)</h3>
+        <p>Sitio web desarrollado diectamente con Sercotec del ministerio de Economía.</p>
+        <a href="https://www.sercotec.cl/barrios-comerciales/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
+        <div class="skills">
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={bootstrap} alt="logo" width="40"/>
+            <img src={wordpress} alt="logo" width="40"/>
+        </div>
+      </div>
+
+      <div class="proyecto">
+        <img src={Bata} alt="logo" width="200" style={{margin:'0'}} />
+        <h3>Bata (2021)</h3>
+        <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
+        <a href="https://www.bata.cl/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        </a>
+        <div class="skills">
+            <img src={html} alt="logo" width="40"/>
+            <img src={css} alt="logo" width="40"/>
+            <img src={js} alt="logo" width="40"/>
+            <img src={bootstrap} alt="logo" width="40"/>
+            <img src={vtex} alt="logo" width="40"/>
+        </div>
+      </div>
+
     </Slider>
   );
 }

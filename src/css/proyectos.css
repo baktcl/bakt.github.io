@@ -54,6 +54,9 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
 	.slick-slide {
-        padding: 3rem 2rem;
+        padding: 2rem 0.5rem;
+    }
+    .proyecto img {
+        margin: 0.8rem;
     }
 }
