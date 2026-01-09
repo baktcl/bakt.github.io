@@ -18,17 +18,17 @@ function Pie() {
 
                     <div class="col-lg-4 col-md-12 col-12 text-center espacio-pie">
                         <a name="Contacto" id="a"></a>
-                        <form id="registro" action="enviar.php" method="POST">
-                            <div class="row animate-box formulario">
-                                <input id="nombre" name="nombre" type="text" placeholder="Nombres" requiered/>
+                        <form id="" method="POST">
+                            <div class="row formulario">
+                                <input id="nombre" name="nombre" type="text" placeholder="Nombres" />
                             </div>
-                            <div class="row animate-box formulario">
-                                <input id="mail" name="mail" type="email" placeholder="E-mail" requiered/>
+                            <div class="row formulario">
+                                <input id="mail" name="mail" type="email" placeholder="E-mail" />
                             </div>     
-                            <div class="row animate-box formulario">
-                                <input  id="telefono" name="telefono" type="number" placeholder="Telefono" />
+                            <div class="row formulario">
+                                <input  id="telefono" name="telefono" type="tel" placeholder="Telefono" />
                             </div>
-                            <div class="row animate-box formulario">
+                            <div class="row formulario">
                                 <button type="submit" name="submit" class="button">ENVIAR</button>
                             </div>
                         </form>

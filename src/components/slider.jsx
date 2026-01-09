@@ -89,7 +89,7 @@ export default function SimpleSlider() {
 
       <div class="proyecto">
         <img src={Fucoa} alt="logo" width="200" style={{margin:'0'}} />
-        <h3>Chile Agrícola (2019)</h3>
+        <h3>Chile Agrícola (2020)</h3>
         <p>Sitio web desarrollado a través de Fucoa del ministerio de agricultura de Chile.</p>
         <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank">
           <button class="custom-btn custom-btn-bg">Ir a la web</button>

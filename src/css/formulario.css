@@ -1,4 +1,4 @@
-input[type="text"], input[type="password"], input[type="email"], input[type="number"], select {
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select {
     font-size: 13px!important;
     letter-spacing: 2px;
     -moz-appearance: none;
@@ -56,7 +56,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
     input[type="text"]:invalid,
     input[type="password"]:invalid,
     input[type="email"]:invalid,
-    input[type="number"]:invalid,
+    input[type="tel"]:invalid,
     select:invalid,
     textarea:invalid {
       border-color: #C5323E;
@@ -65,7 +65,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
     input[type="text"]:focus,
     input[type="password"]:focus,
     input[type="email"]:focus,
-    input[type="number"]:focus,
+    input[type="tel"]:focus,
     select:focus,
     textarea:focus {
       border-color: #7090a2;
@@ -75,7 +75,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
     input[type="text"]:hover,
     input[type="password"]:hover,
     input[type="email"]:hover,
-    input[type="number"]:hover,
+    input[type="tel"]:hover,
     select:hover,
     textarea:hover {
       background: rgba(144, 144, 144, 0.10);

@@ -14,7 +14,7 @@ import Clientes from './components/clientes.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <body>
+    <>
       <Nav />
       <Perfil />
       <Intro />
@@ -22,7 +22,7 @@ root.render(
       <Proyectos />
       <Pie />
       <Clientes />
-    </body>
+    </>
   </React.StrictMode>
 );
 reportWebVitals();
