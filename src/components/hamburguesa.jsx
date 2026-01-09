@@ -30,14 +30,15 @@ export default function Hamburguesa() {
             <hr></hr>
           </li>
           <li>
-            <a href="#Perfil">Perfil</a>
+            <a href="#">Curriculum</a>
           </li>
           <li>
-            <a href="#Proyectos">Proyectos</a>
+            <a href="mailto:kampf@live.cl">kampf@live.cl</a>
           </li>
           <li>
-            <a href="#Contacto">Contacto</a>
+            <a href="tel:+56962822951">+56 962822951</a>
           </li>
+          
           {/*
           <li>
             <hr></hr>

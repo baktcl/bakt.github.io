@@ -35,7 +35,19 @@ export default function SimpleSlider() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 9000,
-    pauseOnHover: true
+    pauseOnHover: true,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+
+    responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <Slider {...settings}>

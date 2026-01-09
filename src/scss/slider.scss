@@ -21,8 +21,20 @@
 	}
 }
 
+.slick-slide {
+	opacity: 0.7;
+	transition: 0.3s;
+	&:hover {
+		opacity: 1;
+		transition: 0.3s;
+	}
+}
+
 @media (max-width: 500px) { 
 	.slick-dots {
 		left: 0;
+	}
+	.slick-slide {
+	opacity: 1;
 	}
 }
