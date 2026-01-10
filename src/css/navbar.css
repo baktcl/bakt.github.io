@@ -126,7 +126,7 @@
 }
 .navegacion ul li a {
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: auto;
     font-weight: 600;
     font-size: 15px!important;
     padding: 10px 0;
