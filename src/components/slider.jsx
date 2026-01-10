@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import { useEffect, useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../scss/slider.scss';
@@ -26,6 +27,14 @@ import wordpress from "../images/skills/logo-wordpress.svg";
 import vtex from "../images/skills/vtex_logo.svg";
 
 export default function SimpleSlider() {
+  const sliderRef = useRef(null);
+
+  useEffect(() => {
+    setTimeout(() => {
+      sliderRef.current?.slickGoTo(0);
+    }, 0);
+  }, []);
+
   var settings = {
     dots: true,
     arrows: false,
@@ -38,7 +47,6 @@ export default function SimpleSlider() {
     pauseOnHover: true,
     slidesToShow: 2,
     slidesToScroll: 2,
-
     responsive: [
       {
         breakpoint: 991,
@@ -50,7 +58,7 @@ export default function SimpleSlider() {
     ],
   };
   return (
-    <Slider {...settings}>
+    <Slider ref={sliderRef} {...settings}>
       <div class="proyecto">
         <img src={Guess} alt="logo" width="200"/>
         <h3>Guess (2021)</h3>
