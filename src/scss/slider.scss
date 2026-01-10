@@ -2,6 +2,7 @@
 	width: 100%;
 	box-sizing: border-box;
 	padding: 0 12px;
+	overflow: hidden;
 	p {
 		color: #ccc;
 	}
@@ -27,9 +28,7 @@
 .slick-slide {
 	opacity: 0.7;
 	transition: 0.3s;
-	height: auto;
-	opacity: 0.7;
-	transition: 0.3s;
+	display: block !important;
 	&:hover {
 		opacity: 1;
 		transition: 0.3s;
@@ -50,12 +49,9 @@
 }
 .slick-slider {
   touch-action: pan-y;
-  overflow: hidden;
 }
-
 .slick-track {
-  display: flex;
+  will-change: transform;
 }
-
 
 

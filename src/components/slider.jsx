@@ -30,27 +30,35 @@ import vtex from "../images/skills/vtex_logo.svg";
 export default function SimpleSlider() {
 
   const settings = {
-  dots: true,
-  arrows: false,
-  infinite: true,
-  speed: 300,
-  autoplay: true,
-  autoplaySpeed: 9000,
-  pauseOnHover: true,
-
-  slidesToShow: 2,
-  slidesToScroll: 2,
-
-  responsive: [
-    {
-      breakpoint: 991,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 9000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: { slidesToShow: 1 }
       },
-    },
-  ],
-};
+      {
+        breakpoint: 9999,
+        settings: { slidesToShow: 2 }
+      }
+    ]
+  };
+
+  useEffect(() => {
+    // fuerza a slick a recalcular tamaños
+    setTimeout(() => {
+      window.dispatchEvent(new Event("resize"));
+    }, 100);
+  }, []);
+
+
 
   return (
     <Slider  {...settings}>

@@ -13,16 +13,13 @@ import Clientes from './components/clientes.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <>
-      <Nav />
-      <Perfil />
-      <Intro />
-      <Divisor />
-      <Proyectos />
-      <Pie />
-      <Clientes />
-    </>
-  </React.StrictMode>
+  <>
+    <Nav />
+    <Perfil />
+    <Intro />
+    <Divisor />
+    <Proyectos />
+    <Pie />
+    <Clientes />
+  </>
 );
-reportWebVitals();
