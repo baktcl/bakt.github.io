@@ -51,6 +51,10 @@ export default function SimpleSlider() {
     dots: true,
     arrows: false,
     infinite: true,
+    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 9000,
+    pauseOnHover: true,
     slidesToShow,
     slidesToScroll: slidesToShow,
   };
