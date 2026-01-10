@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
-import { useEffect, useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../scss/slider.scss';
+import { useRef, useEffect, useState } from "react";
 
 
 import Colloky from "../images/logos/colloky.svg";
@@ -28,37 +28,43 @@ import wordpress from "../images/skills/logo-wordpress.svg";
 import vtex from "../images/skills/vtex_logo.svg";
 
 export default function SimpleSlider() {
+  const sliderRef = useRef(null);
+  const [slidesToShow, setSlidesToShow] = useState(1);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSlidesToShow(window.innerWidth >= 1024 ? 2 : 1);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  useEffect(() => {
+    if (sliderRef.current) {
+      sliderRef.current.slickGoTo(0, true);
+    }
+  }, [slidesToShow]);
 
   const settings = {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 9000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: { slidesToShow: 1 }
-      },
-      {
-        breakpoint: 9999,
-        settings: { slidesToShow: 2 }
-      }
-    ]
+    slidesToShow,
+    slidesToScroll: slidesToShow,
   };
 
   useEffect(() => {
-    // fuerza a slick a recalcular tamaños
-    setTimeout(() => {
-      window.dispatchEvent(new Event("resize"));
-    }, 100);
-  }, []);
+  // Ejecuta un resize apenas cargue y otro brevemente después
+  window.dispatchEvent(new Event('resize'));
+  
+  const timer = setTimeout(() => {
+    window.dispatchEvent(new Event('resize'));
+  }, 300); // 300ms es el dulce punto medio
 
-
+  return () => clearTimeout(timer);
+}, []);
 
   return (
     <Slider  {...settings}>
