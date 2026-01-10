@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../scss/slider.scss';
 
+
 import Colloky from "../images/logos/colloky.svg";
 import Guess from "../images/logos/Guess_logo.svg";
 import Capitaria from "../images/logos/logo-capitaria.png";
@@ -27,38 +28,32 @@ import wordpress from "../images/skills/logo-wordpress.svg";
 import vtex from "../images/skills/vtex_logo.svg";
 
 export default function SimpleSlider() {
-  const sliderRef = useRef(null);
 
-  useEffect(() => {
-    setTimeout(() => {
-      sliderRef.current?.slickGoTo(0);
-    }, 0);
-  }, []);
+  const settings = {
+  dots: true,
+  arrows: false,
+  infinite: true,
+  speed: 300,
+  autoplay: true,
+  autoplaySpeed: 9000,
+  pauseOnHover: true,
 
-  var settings = {
-    dots: true,
-    arrows: false,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 9000,
-    pauseOnHover: true,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    responsive: [
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
+  slidesToShow: 2,
+  slidesToScroll: 2,
+
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
       },
-    ],
-  };
+    },
+  ],
+};
+
   return (
-    <Slider ref={sliderRef} {...settings}>
+    <Slider  {...settings}>
       <div class="proyecto">
         <img src={Guess} alt="logo" width="200"/>
         <h3>Guess (2021)</h3>
