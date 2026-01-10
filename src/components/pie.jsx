@@ -17,7 +17,6 @@ function Pie() {
                     </div>
 
                     <div class="col-lg-4 col-md-12 col-12 text-center espacio-pie">
-                        <a name="Contacto" id="a"></a>
                         <form id="" method="POST">
                             <div class="row formulario">
                                 <input id="nombre" name="nombre" type="text" placeholder="Nombres" />

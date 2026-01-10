@@ -14,11 +14,14 @@ import Clientes from './components/clientes.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
+    <a name="Perfil" id="a"></a>
     <Nav />
     <Perfil />
     <Intro />
     <Divisor />
+    <a name="Proyectos" id="a"></a>
     <Proyectos />
+    <a name="Contacto" id="a"></a>
     <Pie />
     <Clientes />
   </>

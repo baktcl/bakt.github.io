@@ -17,7 +17,6 @@ function Intro() {
                     </div>
                 </div>
             </div>
-            <a name="Proyectos" id="a"></a>
         </section>
     );
 }

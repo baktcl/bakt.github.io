@@ -11,7 +11,6 @@ function perfil() {
                 <div class="col-lg-7 col-md-12 col-12 align-items-center">
                     <div class="about-text">
                         <div class="animated animated-text">
-                            <a name="Perfil" id="a"></a>
                             <span class="mr-2 d-inline animated-item-2">Hola, soy</span>
                                 <div class="animated-info">
                                     <h1 class="animated-item">Bryan Köhnenkampf</h1>
