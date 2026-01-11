@@ -37,6 +37,9 @@ export default function Hamburguesa() {
             <a onClick={() => setOpen(false)} href="#Proyectos">Proyectos</a>
           </li>
           <li>
+            <a href="#">Curriculum</a>
+          </li>
+          <li>
             <a onClick={() => setOpen(false)} href="#Contacto">Contacto</a>
           </li>
           

@@ -36,7 +36,6 @@
   transition: 0.5s;
 }
 
-/* panel cerrado */
 .panel {
     border: 0px transparent;
     position: fixed;
@@ -50,11 +49,9 @@
     background: linear-gradient(to left, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
     box-shadow: none;
     visibility: hidden;
-    transition: 0.3s;
     transition: opacity 0.35s ease;
 }
 
-/* panel abierto */
 .panel.open {
   right: 0;
   opacity: 1;

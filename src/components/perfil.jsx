@@ -18,7 +18,7 @@ function perfil() {
                                     <h2 class="animated-item">Diseñador UX/UI</h2>
                                 </div>
                         </div>
-                        <p>Me dedico a diseñar y maquetear páginas web desde su interfaz a la codificación con diez años de experiencia en el rubro.</p>
+                        <p>Me dedico al prototipado, maquetación e implementación de interfaces web, con 10 años de experiencia en el rubro digital.</p>
                         
                         <div class="custom-btn-group mt-4">
                             <a href="#Proyectos" class=" custom-btn custom-btn-bg custom-btn-link">Proyectos</a>
