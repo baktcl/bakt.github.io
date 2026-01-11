@@ -12,12 +12,6 @@ function Nav() {
                     </div>
                 </div>
                 <div class="fh5co-top-menu menu-1 text-center">
-                    {/*
-                    <ul>
-                        <li>Proyectos</li>
-                        <li>Contacto</li>
-                    </ul>
-                    */}
                     <Hamburguesa />
                 </div>
             </div>

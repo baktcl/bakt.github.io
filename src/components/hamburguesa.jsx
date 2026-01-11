@@ -6,6 +6,7 @@ import linearig from "../images/linear-ig.svg";
 import linearwa from "../images/linear-wa.svg";
 
 export default function Hamburguesa() {
+  
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -30,13 +31,13 @@ export default function Hamburguesa() {
             <hr></hr>
           </li>
           <li>
-            <a href="#Perfil">Perfil</a>
+            <a onClick={() => setOpen(false)} href="#Perfil">Perfil</a>
           </li>
           <li>
-            <a href="#Proyectos">Proyectos</a>
+            <a onClick={() => setOpen(false)} href="#Proyectos">Proyectos</a>
           </li>
           <li>
-            <a href="#Contacto">Contacto</a>
+            <a onClick={() => setOpen(false)} href="#Contacto">Contacto</a>
           </li>
           
           {/*
