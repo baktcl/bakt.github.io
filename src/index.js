@@ -14,8 +14,8 @@ import Clientes from './components/clientes.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
+    <Nav />
     <a name="Perfil" id="a">
-      <Nav />
       <Perfil />
     </a>
     <Intro />
