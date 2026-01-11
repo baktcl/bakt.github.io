@@ -15,14 +15,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Nav />
-    <a name="Perfil" id="a"></a>
-    <Perfil />
+    <a name="Perfil" id="a">
+      <Perfil />
+    </a>
     <Intro />
     <Divisor />
-    <a name="Proyectos" id="a"></a>
-    <Proyectos />
-    <a name="Contacto" id="a"></a>
-    <Pie />
+    <a name="Proyectos" id="a">
+      <Proyectos />
+    </a>
+    <a name="Contacto" id="a">
+      <Pie />
+    </a>
     <Clientes />
   </>
 );
