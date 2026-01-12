@@ -11,7 +11,6 @@ import Renta4 from "../images/logos/horizontal_mediano_blanco_1200x200.svg";
 import Bata from "../images/logos/logo-Bata.svg";
 import Fonasa from "../images/logos/fonasa-1-1 Large.png";
 import Fucoa from "../images/logos/MINAGRI_FUCOA_RGB_blanco.png";
-import Aboch from "../images/logos/iso_Aboch_menu_3.png";
 import Providencia from "../images/logos/Logo-municipal-2025-W2.png";
 import Sakura from "../images/logos/Logos_Cards_Sitio_Beneficios_Sakura.png";
 import Construmart from "../images/logos/icon-construmart-vertical-colors Large.png";
@@ -26,132 +25,126 @@ function Clientes() {
         <div class="slider">
             <div class="slide-track">
                 <div class="slide">
-                    <img src={Sercotec} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Sercotec} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Amuch} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Amuch} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={CorreosChile} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={CorreosChile} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Colloky} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Colloky} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Guess} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Guess} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Fonasa} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Fonasa} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={MetroSantiago} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={MetroSantiago} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Vitamina} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Vitamina} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Unired} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Unired} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Renta4} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Renta4} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Bata} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Bata} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Fucoa} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Fucoa} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Aboch} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Providencia} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Providencia} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Sakura} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Sakura} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Construmart} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Construmart} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Minvu} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Minvu} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Salud5i} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Salud5i} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Capitaria} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Capitaria} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Ecomsur} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Ecomsur} class="img-fluid" alt="logo" width="250" height="100" />
-                </div>
-                <div class="slide">
-                    <img src={Aligare} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Aligare} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
 
 
                 <div class="slide">
-                    <img src={Sercotec} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Sercotec} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Amuch} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Amuch} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={CorreosChile} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={CorreosChile} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Colloky} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Colloky} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Guess} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Guess} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Fonasa} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Fonasa} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={MetroSantiago} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={MetroSantiago} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Vitamina} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Vitamina} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Unired} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Unired} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Renta4} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Renta4} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Bata} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Bata} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Fucoa} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Fucoa} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Aboch} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Providencia} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Providencia} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Sakura} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Sakura} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Construmart} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Construmart} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Minvu} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Minvu} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Salud5i} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Salud5i} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Capitaria} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Capitaria} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Ecomsur} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
-                    <img src={Ecomsur} class="img-fluid" alt="logo" width="250" height="100" />
-                </div>
-                <div class="slide">
-                    <img src={Aligare} class="img-fluid" alt="logo" width="250" height="100" />
+                    <img src={Aligare} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 
                 

@@ -33,18 +33,20 @@ $animationSpeed: 50s;
 		height: 100px;
 		width: 200px;
 		flex: 0 0 auto;
-  		padding: 0 1.5rem;
+  		padding: 0;
+		margin: 0 1.2rem;
   		display: flex;
+		gap: initial;
   		align-items: center;
   		justify-content: center;
   		opacity: 0.5;
   		transition: 0.3s;
 
 		img {
-			max-width: 200px;
-	    	max-height: 100px;
-	    	width: auto;
-	    	height: auto;
+			max-width: 170px;
+    		max-height: 100px;
+			width: auto;
+    		height: auto;
 		}
 	}
 }
