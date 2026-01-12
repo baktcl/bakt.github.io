@@ -1,51 +1,58 @@
-.animated {
-  position: relative;
-  margin: 15px 0;
-}
+.about {
+  .animated {
+    position: relative;
+    margin: 15px 0;
+  }
 
-.animated-info {
-  display: inline-block;
-  vertical-align: top;
-  min-width: 360px;
-  position: relative;
-}
+  .animated-info {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 360px;
+    position: relative;
+  }
 
-.animated-item h1 {
-  color: #7088a0;
-}
+  .animated-item h1 {
+    color: #7088a0;
+  }
 
-.animated-item-2 {
-  color: #333333;
-  font-size: 38px;
-  font-weight: 500;
-  font-family: "Roboto Condensed", sans-serif;
-}
+  .animated-item-2 {
+    color: #333333;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: "Roboto Condensed", sans-serif;
+  }
 
-.animated-item {
-  font-size: 38px;
-  width: 100%;
-  line-height: inherit;
-  display: block;
-  opacity: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0.8rem;
-  color: #7088a0;
-  animation: BottomTotop 9s linear infinite 0s;
-}
-.animated-item:nth-child(2n+2) {
-  animation-delay: 3s;
-}
-.animated-item:nth-child(3n+3) {
-  animation-delay: 6s;
-}
+  .animated-item {
+    font-size: 38px;
+    width: 100%;
+    line-height: inherit;
+    display: block;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0.8rem;
+    color: #7088a0;
+    animation: BottomTotop 9s linear infinite 0s;
+  }
+  .animated-item:nth-child(2n+2) {
+    animation-delay: 3s;
+  }
+  .animated-item:nth-child(3n+3) {
+    animation-delay: 6s;
+  }
 
-.about-text {
-  padding-top: 2rem;
-}
+  .about-text {
+    padding-top: 1rem;
+  }
 
+  .about-image {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+  }
+}
 @keyframes BottomTotop {
   0% {
     opacity: 0;
@@ -77,7 +84,7 @@
 
 @media (max-width: 500px) { 
     .about-text {
-      padding: 2.2rem 1rem 1rem 1rem;
+      padding: 2rem 1rem 1rem 1rem;
     }
     .animated-text {
         height: 110px;
