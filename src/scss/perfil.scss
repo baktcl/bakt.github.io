@@ -44,7 +44,7 @@
   }
 
   .about-text {
-    padding-top: 1rem;
+    padding: 2rem;
   }
 
   .about-image {
@@ -83,8 +83,9 @@
 
 
 @media (max-width: 500px) { 
+  .about{
     .about-text {
-      padding: 2rem 1rem 1rem 1rem;
+      padding: 1rem;
     }
     .animated-text {
         height: 110px;
@@ -98,4 +99,5 @@
     .about .custom-btn {
       width: 100%!important;
     }
+  }
 }
