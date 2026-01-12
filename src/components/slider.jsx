@@ -105,7 +105,7 @@ export default function SimpleSlider() {
       </div>
 
       <div class="proyecto">
-        <img src={Construmart} alt="logo" width="200" style={{margin:'0'}} />
+        <img src={Construmart} alt="logo" width="200" />
         <h3>Construmart (2021)</h3>
         <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
         <a href="https://www.construmart.cl/" rel="noreferrer" target="_blank">
@@ -121,7 +121,7 @@ export default function SimpleSlider() {
       </div>
 
       <div class="proyecto">
-        <img src={Fucoa} alt="logo" width="200" style={{margin:'0'}} />
+        <img src={Fucoa} alt="logo" width="200"  />
         <h3>Chile Agrícola (2020)</h3>
         <p>Sitio web desarrollado a través de Fucoa del ministerio de agricultura de Chile.</p>
         <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank">
