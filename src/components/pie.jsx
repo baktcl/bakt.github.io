@@ -9,7 +9,7 @@ function Pie() {
                     <div class="col-lg-4 col-md-12 col-12 text-center espacio-pie">
                         <a href="#Perfil">Perfil</a>
                         <a href="#Proyectos">Proyectos</a>
-                        <a href="#">Curriculum</a>
+                        <a href="../Curriculum.pdf" target="_blank">Curriculum</a>
                         <hr></hr>
                         <a href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">Linkedin</a>
                         <a href="https://www.instagram.com/bkampft/" target="_blank" rel="noreferrer">Instagram</a>
