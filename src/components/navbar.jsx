@@ -7,7 +7,7 @@ function Nav() {
                 <div class="fh5co-top-logo">
                     <div id="fh5co-logo">
                         <a href="https://bakt.cl/">
-                            <img src={baktlogo} width="50" height="50" alt="bakt.cl" />
+                            <img src={baktlogo} width="50" height="50" alt="bakt.cl" class="logotipo" />
                         </a>
                     </div>
                 </div>
