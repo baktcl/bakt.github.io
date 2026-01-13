@@ -39,7 +39,7 @@ function Intro() {
                     </div>
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
                         <h2>Implementación</h2>
-                        <p>Desarrollo de lógica front-end utilizando frameworks como React.js, Angular y Wordpress</p>
+                        <p>Desarrollo de lógica front-end utilizando frameworks como React.js, Angular y Wordpress.</p>
                         <div class="skills">
                             <img src={angular2} alt="logo" width="40"/>
                             <img src={react2} alt="logo" width="40"/>

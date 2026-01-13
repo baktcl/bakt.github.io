@@ -31,3 +31,11 @@
         }
     }
 }
+
+@media (max-width: 500px) { 
+    #introduccion {
+        .caja {
+            filter: grayscale(0%);
+        }
+    }
+}
