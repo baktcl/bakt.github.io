@@ -18,34 +18,34 @@ function Intro() {
             <div class="container">
                 <div class="row"> 
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
+                        <h2>Prototipado</h2>
+                        <p>Diseño de interfaces en Figma/Adobe XD, creando prototipos interactivos orientados a la experiencia de usuario.</p>
                         <div class="skills">
                             <img src={figma} alt="logo" width="40"/>
                             <img src={xd} alt="logo" width="40"/>
                             <img src={photoshop} alt="logo" width="40"/>
                             <img src={illustrator} alt="logo" width="40"/>
                         </div>
-                        <h2>Prototipado</h2>
-                        <p>Diseño de interfaces en Figma/Adobe XD, creando prototipos interactivos orientados a la experiencia de usuario.</p>
                     </div>
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
+                        <h2>Maquetación</h2>
+                        <p>Traducción de prototipos a HTML/CSS responsivo y accesible, manteniendo fidelidad al diseño.</p>
                         <div class="skills">
                             <img src={html2} alt="logo" width="40"/>
                             <img src={css2} alt="logo" width="40"/>
                             <img src={sass2} alt="logo" width="40"/>
                             <img src={bootstrap2} alt="logo" width="40"/>
                         </div>
-                        <h2>Maquetación</h2>
-                        <p>Traducción de prototipos a HTML/CSS responsivo y accesible, manteniendo fidelidad al diseño.</p>
                     </div>
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
+                        <h2>Implementación</h2>
+                        <p>Desarrollo de lógica front-end utilizando frameworks como React.js, Angular y Wordpress</p>
                         <div class="skills">
                             <img src={angular2} alt="logo" width="40"/>
                             <img src={react2} alt="logo" width="40"/>
                             <img src={wordpress2} alt="logo" width="40"/>
                             <img src={vtex2} alt="logo" width="40"/>
                         </div>
-                        <h2>Implementación</h2>
-                        <p>Desarrollo de lógica front-end utilizando frameworks como React.js y Angular.</p>
                     </div>
                 </div>
             </div>
