@@ -3,7 +3,7 @@ import telefono from "../images/telefono.svg";
 import ubicacion from "../images/ubicacion.svg";
 function Pie() {
     return (
-        <section class="pie full-screen d-lg-flex justify-content-center align-items-center" id="introduccion">
+        <section class="pie full-screen d-lg-flex justify-content-center align-items-center" id="Contacto">
             <div class="container">
                 <div class="row"> 
                     <div class="col-lg-4 col-md-12 col-12 text-center espacio-pie">
