@@ -167,16 +167,18 @@ export default function SimpleSlider() {
       </div>
 
       <div class="proyecto">
-        <img src={Capitaria} alt="logo" width="180"  />
-        <h3>Capitaria (2015)</h3>
-        <p>Sitio web no disponible actualmente. Adjunto maqueta formato landing page para ventas.</p>
-        <a href="https://bakt.cl/Proyectos/Capitaria/" rel="noreferrer" target="_blank">
-          <button class="custom-btn custom-btn-bg">Ir a la landing</button>
+        <img src={Sakura} alt="logo" width="180" />
+        <h3>Sakura (2024)</h3>
+        <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
+        <a href="https://www.sakuraexpress.cl/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la web</button>
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="40"/>
             <img src={css} alt="logo" width="40"/>
+            <img src={js} alt="logo" width="40"/>
             <img src={bootstrap} alt="logo" width="40"/>
+            <img src={angular} alt="logo" width="40"/>
         </div>
       </div>
 
@@ -197,18 +199,16 @@ export default function SimpleSlider() {
       </div>
 
       <div class="proyecto">
-        <img src={Sakura} alt="logo" width="180" />
-        <h3>Sakura (2024)</h3>
-        <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
-        <a href="https://www.sakuraexpress.cl/" rel="noreferrer" target="_blank">
-          <button class="custom-btn custom-btn-bg">Ir a la web</button>
+        <img src={Capitaria} alt="logo" width="180"  />
+        <h3>Capitaria (2015)</h3>
+        <p>Sitio web no disponible actualmente. Adjunto maqueta formato landing page para ventas.</p>
+        <a href="https://bakt.cl/Proyectos/Capitaria/" rel="noreferrer" target="_blank">
+          <button class="custom-btn custom-btn-bg">Ir a la landing</button>
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="40"/>
             <img src={css} alt="logo" width="40"/>
-            <img src={js} alt="logo" width="40"/>
             <img src={bootstrap} alt="logo" width="40"/>
-            <img src={angular} alt="logo" width="40"/>
         </div>
       </div>
 
