@@ -37,7 +37,7 @@ export default function Hamburguesa() {
             <a onClick={() => setOpen(false)} href="#Proyectos">Proyectos</a>
           </li>
           <li>
-            <a target="_blank" href="../Curriculum.pdf">Curriculum</a>
+            <a target="_blank" rel="noopener noreferrer" href="../Curriculum.pdf">Curriculum</a>
           </li>
           <li>
             <a onClick={() => setOpen(false)} href="#Contacto">Contacto</a>
@@ -56,13 +56,13 @@ export default function Hamburguesa() {
             <hr></hr>
           </li>
           <div class="redes">
-            <a class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank">
+            <a class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noopener noreferrer">
               <img src={linearli} alt="Linkedin" />
             </a> 
-            <a class="social" href="https://www.instagram.com/bkampft/" target="_blank">
+            <a class="social" href="https://www.instagram.com/bkampft/" target="_blank" rel="noopener noreferrer">
               <img src={linearig} alt="Instagram" />
             </a>
-            <a class="social" href="https://api.whatsapp.com/send?phone=56962822951" target="_blank">
+            <a class="social" href="https://api.whatsapp.com/send?phone=56962822951" target="_blank" rel="noopener noreferrer">
               <img src={linearwa} alt="Whatsapp" />
             </a>
           </div>

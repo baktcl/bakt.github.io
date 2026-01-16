@@ -1,7 +1,6 @@
 import mail from "../images/mail.svg";
 import telefono from "../images/telefono.svg";
 import ubicacion from "../images/ubicacion.svg";
-import { useState } from "react";
 
 function Pie() {
     

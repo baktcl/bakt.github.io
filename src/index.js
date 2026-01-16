@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import reportWebVitals from './reportWebVitals';
 import Nav from "./components/navbar.jsx";
 import Perfil from "./components/perfil.jsx";
 import Intro from "./components/intro.jsx";
