@@ -1,6 +1,5 @@
 import html2 from "../images/skills/html5-color.svg";
 import css2 from "../images/skills/css3-color.svg";
-import js2 from "../images/skills/javascript-color.svg";
 import bootstrap2 from "../images/skills/bootstrap-color.svg";
 import angular2 from "../images/skills/angular-color.svg";
 import react2 from "../images/skills/react-color.svg";

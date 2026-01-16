@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,17 +13,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Nav />
-    <a name="Perfil" id="a">
+    <section id="Perfil">
       <Perfil />
-    </a>
+    </section>
     <Intro />
     <Divisor />
-    <a name="Proyectos" id="a">
+    <section id="Proyectos">
       <Proyectos />
-    </a>
-    <a name="Contacto" id="a">
+    </section>
+    <section id="Contacto">
       <Pie />
-    </a>
+    </section>
     <Clientes />
   </>
 );

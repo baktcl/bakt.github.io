@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import '../scss/slider.scss';
 import { useRef, useEffect, useState } from "react";
 
-
 import Colloky from "../images/logos/colloky.svg";
 import Guess from "../images/logos/Guess_logo.svg";
 import Capitaria from "../images/logos/logo-capitaria.png";
@@ -22,7 +21,6 @@ import css from "../images/skills/css3-logo.svg";
 import js from "../images/skills/javascript-logo.svg";
 import bootstrap from "../images/skills/bootstrap-logo.svg";
 import angular from "../images/skills/angular-logo.svg";
-import react from "../images/skills/logo-react.svg";
 import wordpress from "../images/skills/logo-wordpress.svg";
 import vtex from "../images/skills/vtex_logo.svg";
 
