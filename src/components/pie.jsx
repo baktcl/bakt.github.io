@@ -29,7 +29,7 @@ function Pie() {
                             <div class="row formulario">
                                 <input type="email"
                                         placeholder="Email" 
-                                        id="mail" 
+                                        id="email" 
                                         name="email" />
                             </div>     
                             <div class="row formulario">
@@ -39,7 +39,7 @@ function Pie() {
                                         name="telefono" />
                             </div>
                             <div class="row formulario">
-                                <input type="hidden" name="_next" value="https://bakt.cl/gracias" />
+                                <input type="hidden" name="_language" value="es" />
                                 <button type="submit" name="submit" class="button">ENVIAR</button>
                             </div>
                         </form>
