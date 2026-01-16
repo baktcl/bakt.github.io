@@ -4,19 +4,6 @@ import ubicacion from "../images/ubicacion.svg";
 import { useState } from "react";
 
 function Pie() {
-
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [phone, setPhone] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log({
-      name,
-      email,
-      phone,
-    });
-  };
     
     return (
         <section class="pie full-screen d-lg-flex justify-content-center align-items-center" id="Contacto">
@@ -33,32 +20,27 @@ function Pie() {
                     </div>
 
                     <div class="col-lg-4 col-md-12 col-12 text-center espacio-pie">
-                        <form onSubmit={handleSubmit}>
+                        <form action="https://formspree.io/f/xnjjnkdg" method="POST">
                             <div class="row formulario">
                                 <input type="text"
-                                        value={name}
-                                        onChange={(e) => setName(e.target.value)}
                                         placeholder="Nombres" 
                                         id="nombre" 
                                         name="nombre"  />
                             </div>
                             <div class="row formulario">
                                 <input type="email"
-                                        value={email}
-                                        onChange={(e) => setEmail(e.target.value)}
                                         placeholder="Email" 
                                         id="mail" 
-                                        name="mail" />
+                                        name="email" />
                             </div>     
                             <div class="row formulario">
                                 <input type="tel"
-                                        value={phone}
-                                        onChange={(e) => setPhone(e.target.value)}
                                         placeholder="Teléfono"  
                                         id="telefono" 
                                         name="telefono" />
                             </div>
                             <div class="row formulario">
+                                <input type="hidden" name="_next" value="https://bakt.cl/gracias" />
                                 <button type="submit" name="submit" class="button">ENVIAR</button>
                             </div>
                         </form>
