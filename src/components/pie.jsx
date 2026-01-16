@@ -1,7 +1,23 @@
 import mail from "../images/mail.svg";
 import telefono from "../images/telefono.svg";
 import ubicacion from "../images/ubicacion.svg";
+import { useState } from "react";
+
 function Pie() {
+
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [phone, setPhone] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log({
+      name,
+      email,
+      phone,
+    });
+  };
+    
     return (
         <section class="pie full-screen d-lg-flex justify-content-center align-items-center" id="Contacto">
             <div class="container">
@@ -17,15 +33,30 @@ function Pie() {
                     </div>
 
                     <div class="col-lg-4 col-md-12 col-12 text-center espacio-pie">
-                        <form id="" method="POST">
+                        <form onSubmit={handleSubmit}>
                             <div class="row formulario">
-                                <input id="nombre" name="nombre" type="text" placeholder="Nombres" />
+                                <input type="text"
+                                        value={name}
+                                        onChange={(e) => setName(e.target.value)}
+                                        placeholder="Nombres" 
+                                        id="nombre" 
+                                        name="nombre"  />
                             </div>
                             <div class="row formulario">
-                                <input id="mail" name="mail" type="email" placeholder="E-mail" />
+                                <input type="email"
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
+                                        placeholder="Email" 
+                                        id="mail" 
+                                        name="mail" />
                             </div>     
                             <div class="row formulario">
-                                <input  id="telefono" name="telefono" type="tel" placeholder="Telefono" />
+                                <input type="tel"
+                                        value={phone}
+                                        onChange={(e) => setPhone(e.target.value)}
+                                        placeholder="Teléfono"  
+                                        id="telefono" 
+                                        name="telefono" />
                             </div>
                             <div class="row formulario">
                                 <button type="submit" name="submit" class="button">ENVIAR</button>
