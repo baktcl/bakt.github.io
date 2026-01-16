@@ -43,22 +43,22 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
     text-decoration: none;
     width: 100%;
     float:left;
-   border-radius: 50px;
-   -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  text-transform: uppercase;
+    border-radius: 50px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-transform: uppercase;
     font-family: "Montserrat", Arial, sans-serif;
     font-size: 14px;
     resize: none;
   }
 
-    input[type="text"]:invalid,
-    input[type="password"]:invalid,
-    input[type="email"]:invalid,
-    input[type="tel"]:invalid,
-    select:invalid,
-    textarea:invalid {
+    input[type="text"]:required:invalid:not(:placeholder-shown),
+    input[type="password"]:required:invalid:not(:placeholder-shown),
+    input[type="email"]:required:invalid:not(:placeholder-shown),
+    input[type="tel"]:required:invalid:not(:placeholder-shown),
+    select:required:invalid:not(:placeholder-shown),
+    textarea:required:invalid:not(:placeholder-shown) {
       border-color: #C5323E;
     }
 

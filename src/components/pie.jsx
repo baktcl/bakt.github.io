@@ -3,7 +3,30 @@ import telefono from "../images/telefono.svg";
 import ubicacion from "../images/ubicacion.svg";
 
 function Pie() {
-    
+
+    const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+
+    const response = await fetch(
+      "https://formspree.io/f/xnjjnkdg",
+      {
+        method: "POST",
+        body: new FormData(form),
+        headers: {
+          Accept: "application/json",
+        },
+      }
+    );
+
+    if (response.ok) {
+      window.location.href = "/gracias";
+    } else {
+      alert("Error al enviar el mensaje");
+    }
+  };
+
     return (
         <section class="pie full-screen d-lg-flex justify-content-center align-items-center" id="Contacto">
             <div class="container">
@@ -19,24 +42,27 @@ function Pie() {
                     </div>
 
                     <div class="col-lg-4 col-md-12 col-12 text-center espacio-pie">
-                        <form action="https://formspree.io/f/xnjjnkdg" method="POST">
+                        <form onSubmit={handleSubmit}>
                             <div class="row formulario">
                                 <input type="text"
                                         placeholder="Nombres" 
                                         id="nombre" 
-                                        name="nombre"  />
+                                        name="nombre"
+                                        required  />
                             </div>
                             <div class="row formulario">
                                 <input type="email"
                                         placeholder="Email" 
                                         id="email" 
-                                        name="email" />
+                                        name="email" 
+                                        required />
                             </div>     
                             <div class="row formulario">
                                 <input type="tel"
                                         placeholder="Teléfono"  
                                         id="telefono" 
-                                        name="telefono" />
+                                        name="telefono"
+                                        required />
                             </div>
                             <div class="row formulario">
                                 <input type="hidden" name="_language" value="es" />
