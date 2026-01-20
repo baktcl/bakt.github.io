@@ -80,3 +80,91 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
     textarea:hover {
       background: rgba(144, 144, 144, 0.10);
     }
+
+
+
+
+.exito {
+  background-image: linear-gradient(transparent, #3A8D38)!important;
+  min-height: 550px;
+  height: 90% !important;
+  padding: 2em 1em;
+  opacity: 1;
+  right: 0;
+  left: 0;
+  top: unset !important;
+  bottom: 0;
+  position: fixed;
+  display: flex!important;
+  flex-direction: column;
+  z-index: 666;
+  text-align: center;
+  justify-content: end;
+  animation: fadeout 0s ease-out 15s;
+  animation-fill-mode: forwards;
+  transition: ease-out 0.5s;
+  opacity: 1;
+  animation-duration: 5s;             
+  animation-iteration-count: none;
+}
+
+.error {
+  background-image: linear-gradient(transparent, #E3393E)!important;
+  min-height: 550px;
+  height: 90% !important;
+  padding: 2em 1em;
+  opacity: 1;
+  right: 0;
+  left: 0;
+  top: unset !important;
+  bottom: 0;
+  position: fixed;
+  display: flex!important;
+  flex-direction: column;
+  z-index: 666;
+  text-align: center;
+  justify-content: end;
+  animation: fadeout 0s ease-out 15s;
+  animation-fill-mode: forwards;
+  transition: ease-out 0.5s;
+  opacity: 1;
+  animation-duration: 5s;             
+  animation-iteration-count: none;
+}
+
+@keyframes fadeout {
+  0% {opacity: 0.9;animation: ease-out 5s;
+  animation-fill-mode: forwards;
+  transition: ease-out 0.5s;animation-duration: 5s; visibility: visible;}
+  10% {opacity: 0.9;animation: ease-out 5s;
+  animation-fill-mode: forwards;
+  transition: ease-out 0.5s;animation-duration: 5s; visibility: visible;}
+  30% {opacity: 0.9;animation: ease-out 5s;
+  animation-fill-mode: forwards;
+  transition: ease-out 0.5s;animation-duration: 5s; visibility: visible;}
+  50% {opacity: 0.9;animation: ease-out 5s;
+  animation-fill-mode: forwards;
+  transition: ease-out 0.5s;animation-duration: 5s; visibility: visible;}
+  60% {opacity: 0.9;animation: ease-out 5s;
+  animation-fill-mode: forwards;
+  transition: ease-out 0.5s;animation-duration: 5s; visibility: visible;}
+  80% {opacity: 0.9;animation: ease-out 5s;
+  animation-fill-mode: forwards;
+  transition: ease-out 0.5s;animation-duration: 5s; visibility: visible;}
+  100% {opacity: 0;animation: ease-out 5s;
+  animation-fill-mode: forwards;
+  transition: ease-out 0.5s;animation-duration: 5s; visibility: hidden;}
+
+} 
+
+.exito p, .exito h2, .error p, .error h2{
+  color: #fff!important;
+}
+
+.exito button, .error button {
+  max-width: 450px;
+}
+
+.exito img, .error img {
+    margin: 1rem auto;
+}

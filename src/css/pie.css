@@ -52,6 +52,7 @@
     font-size: 14px;
     margin: 7px auto!important;
     line-height: normal;
+    text-transform: uppercase;
     overflow: hidden;
     transition: all 0.4s ease;
     letter-spacing: 1.5px;

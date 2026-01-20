@@ -1,31 +1,41 @@
 import mail from "../images/mail.svg";
 import telefono from "../images/telefono.svg";
 import ubicacion from "../images/ubicacion.svg";
+import { useState } from "react";
+import exito from "../images/exito.svg";
+import error from "../images/error.svg";
 
 function Pie() {
+  const [estado, setEstado] = useState(null); // null | "exito" | "error"
+  const [enviando, setEnviando] = useState(false);
 
-    const handleSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setEnviando(true);
 
     const form = e.target;
 
-    const response = await fetch(
-      "https://formspree.io/f/xnjjnkdg",
-      {
+    try {
+      const response = await fetch("https://formspree.io/f/xnjjnkdg", {
         method: "POST",
         body: new FormData(form),
-        headers: {
-          Accept: "application/json",
-        },
-      }
-    );
+        headers: { Accept: "application/json" },
+      });
 
-    if (response.ok) {
-      window.location.href = "/gracias";
-    } else {
-      alert("Error al enviar el mensaje");
+      if (response.ok) {
+        setEstado("exito");
+        form.reset();
+      } else {
+        setEstado("error");
+      }
+    } catch (err) {
+      setEstado("error");
+    } finally {
+      setEnviando(false);
     }
   };
+
+  const cerrarModal = () => setEstado(null);
 
     return (
         <section class="pie full-screen d-lg-flex justify-content-center align-items-center" id="Contacto">
@@ -66,7 +76,9 @@ function Pie() {
                             </div>
                             <div class="row formulario">
                                 <input type="hidden" name="_language" value="es" />
-                                <button type="submit" name="submit" class="button">ENVIAR</button>
+                                 <button type="submit" class="button" disabled={enviando}>
+                                    {enviando ? "Enviando..." : "Enviar"}
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -97,6 +109,28 @@ function Pie() {
                             </span>
                         </div>		
                     </div>
+                    {estado === "exito" && (
+                        <div className="modal-overlay">
+                        <div className="modal exito">
+                            <img src={exito} class="img-fluid" alt="exito" width="80" height="80" />
+                            <h2>¡Mensaje enviado!</h2>
+                            <p>Estamos en contacto</p>
+                            <button onClick={cerrarModal}>Cerrar</button>
+                        </div>
+                        </div>
+                    )}
+
+                    {/* MODAL ERROR */}
+                    {estado === "error" && (
+                        <div className="modal-overlay">
+                        <div className="modal error">
+                            <img src={error} class="img-fluid" alt="error" width="80" height="80" />
+                            <h2>Ocurrió un problema</h2>
+                            <p>Inténtalo más tarde</p>
+                            <button onClick={cerrarModal}>Cerrar</button>
+                        </div>
+                        </div>
+                    )}
                 </div>
             </div>
         </section>
