@@ -11,6 +11,7 @@ import illustrator from "../images/skills/illustrator-color.svg";
 import xd from "../images/skills/adobe-xd-color.svg";
 import figma from "../images/skills/figma-color.svg";
 
+
 function Intro() {
     return (
         <section class="about d-lg-flex justify-content-center align-items-center" id="introduccion">
@@ -48,6 +49,7 @@ function Intro() {
                     </div>
                 </div>
             </div>
+            
         </section>
     );
 }
