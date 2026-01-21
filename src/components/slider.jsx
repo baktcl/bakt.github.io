@@ -18,6 +18,7 @@ import Sakura from "../images/logos/Logos_Cards_Sitio_Beneficios_Sakura.png";
 
 import html from "../images/skills/html5-logo.svg";
 import css from "../images/skills/css3-logo.svg";
+import sass from "../images/skills/logo-sass.svg";
 import js from "../images/skills/javascript-logo.svg";
 import bootstrap from "../images/skills/bootstrap-logo.svg";
 import angular from "../images/skills/angular-logo.svg";
@@ -78,7 +79,7 @@ export default function SimpleSlider() {
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
+            <img src={sass} alt="logo" width="40"/>
             <img src={js} alt="logo" width="40"/>
             <img src={bootstrap} alt="logo" width="40"/>
             <img src={vtex} alt="logo" width="40"/>
@@ -110,7 +111,7 @@ export default function SimpleSlider() {
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
+            <img src={sass} alt="logo" width="40"/>
             <img src={js} alt="logo" width="40"/>
             <img src={bootstrap} alt="logo" width="40"/>
             <img src={vtex} alt="logo" width="40"/>
@@ -142,7 +143,7 @@ export default function SimpleSlider() {
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
+            <img src={sass} alt="logo" width="40"/>
             <img src={js} alt="logo" width="40"/>
             <img src={bootstrap} alt="logo" width="40"/>
             <img src={vtex} alt="logo" width="40"/>
@@ -233,7 +234,7 @@ export default function SimpleSlider() {
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
+            <img src={sass} alt="logo" width="40"/>
             <img src={js} alt="logo" width="40"/>
             <img src={bootstrap} alt="logo" width="40"/>
             <img src={vtex} alt="logo" width="40"/>
