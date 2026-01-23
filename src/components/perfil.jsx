@@ -41,7 +41,7 @@ function perfil() {
 
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="about-image svg">
-                        <img src={bakt} class="img-fluid" alt="bakt" />
+                        <img src={bakt} class="img-fluid vector" alt="bakt" />
                     </div>
                 </div>
 

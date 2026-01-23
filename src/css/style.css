@@ -15,7 +15,7 @@ body {
 }
 
 .full-screen {
-  padding: 4rem 0 5rem 0;
+  padding: 5rem 0;
 }
 
 .small-text {
@@ -146,9 +146,6 @@ b, strong {
   stroke-width: 2;
 }
 
-section .container {
-  max-width: 1200px;
-}
 
 @media (min-width: 320px) and (max-width: 768px) { 
  .full-screen {
