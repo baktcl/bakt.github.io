@@ -25,6 +25,8 @@ import angular from "../images/skills/angular-logo.svg";
 import wordpress from "../images/skills/logo-wordpress.svg";
 import vtex from "../images/skills/vtex_logo.svg";
 
+import blank from "../images/url-blank.svg";
+
 export default function SimpleSlider() {
   const sliderRef = useRef(null);
   const [slidesToShow, setSlidesToShow] = useState(1);
@@ -73,15 +75,16 @@ export default function SimpleSlider() {
         <img src={Guess} alt="logo" width="180"/>
         <h3>Guess (2021)</h3>
         <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
-        <a href="https://www.guess.cl/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la web</button>
+        <a href="https://www.guess.cl/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={sass} alt="logo" width="40"/>
-            <img src={js} alt="logo" width="40"/>
-            <img src={bootstrap} alt="logo" width="40"/>
-            <img src={vtex} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={sass} alt="logo" width="40" height="40"/>
+            <img src={js} alt="logo" width="40" height="40"/>
+            <img src={bootstrap} alt="logo" width="40" height="40"/>
+            <img src={vtex} alt="logo" width="40" height="40"/>
         </div>
       </div>
 
@@ -89,15 +92,16 @@ export default function SimpleSlider() {
         <img src={Unired} alt="logo" width="180" style={{margin:'0'}} />
         <h3>Unired (2024)</h3>
         <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
-        <a href="https://www.unired.cl/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la web</button>
+        <a href="https://www.unired.cl/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
-            <img src={js} alt="logo" width="40"/>
-            <img src={bootstrap} alt="logo" width="40"/>
-            <img src={angular} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
+            <img src={js} alt="logo" width="40" height="40"/>
+            <img src={bootstrap} alt="logo" width="40" height="40"/>
+            <img src={angular} alt="logo" width="40" height="40"/>
         </div>
       </div>
 
@@ -105,15 +109,16 @@ export default function SimpleSlider() {
         <img src={Construmart} alt="logo" width="180" />
         <h3>Construmart (2021)</h3>
         <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
-        <a href="https://www.construmart.cl/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la web</button>
+        <a href="https://www.construmart.cl/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={sass} alt="logo" width="40"/>
-            <img src={js} alt="logo" width="40"/>
-            <img src={bootstrap} alt="logo" width="40"/>
-            <img src={vtex} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={sass} alt="logo" width="40" height="40"/>
+            <img src={js} alt="logo" width="40" height="40"/>
+            <img src={bootstrap} alt="logo" width="40" height="40"/>
+            <img src={vtex} alt="logo" width="40" height="40"/>
         </div>
       </div>
 
@@ -121,15 +126,16 @@ export default function SimpleSlider() {
         <img src={Fucoa} alt="logo" width="180"  />
         <h3>Chile Agrícola (2020)</h3>
         <p>Sitio web desarrollado a través de Fucoa del ministerio de agricultura de Chile.</p>
-        <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la web</button>
+        <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
-            <img src={js} alt="logo" width="40"/>
-            <img src={bootstrap} alt="logo" width="40"/>
-            <img src={wordpress} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
+            <img src={js} alt="logo" width="40" height="40"/>
+            <img src={bootstrap} alt="logo" width="40" height="40"/>
+            <img src={wordpress} alt="logo" width="40" height="40"/>
         </div>
       </div>
 
@@ -137,15 +143,16 @@ export default function SimpleSlider() {
         <img src={Colloky} alt="logo" width="180" style={{margin:'0'}} />
         <h3>Colloky (2021)</h3>
         <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
-        <a href="https://www.colloky.cl/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la web</button>
+        <a href="https://www.colloky.cl/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={sass} alt="logo" width="40"/>
-            <img src={js} alt="logo" width="40"/>
-            <img src={bootstrap} alt="logo" width="40"/>
-            <img src={vtex} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={sass} alt="logo" width="40" height="40"/>
+            <img src={js} alt="logo" width="40" height="40"/>
+            <img src={bootstrap} alt="logo" width="40" height="40"/>
+            <img src={vtex} alt="logo" width="40" height="40"/>
         </div>
       </div>
 
@@ -153,13 +160,14 @@ export default function SimpleSlider() {
         <img src={Vitamina} alt="logo" width="180" style={{margin:'0'}} />
         <h3>Vitamina (2016)</h3>
         <p>Sitio web desarrollado directamente con jardines infantiles Vitamina.</p>
-        <a href="https://www.vitamina.cl/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la web</button>
+        <a href="https://www.vitamina.cl/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
-            <img src={wordpress} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
+            <img src={wordpress} alt="logo" width="40" height="40"/>
         </div>
       </div>
 
@@ -167,15 +175,16 @@ export default function SimpleSlider() {
         <img src={Sakura} alt="logo" width="180" />
         <h3>Sakura (2024)</h3>
         <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
-        <a href="https://www.sakuraexpress.cl/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la web</button>
+        <a href="https://www.sakuraexpress.cl/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
-            <img src={js} alt="logo" width="40"/>
-            <img src={bootstrap} alt="logo" width="40"/>
-            <img src={angular} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
+            <img src={js} alt="logo" width="40" height="40"/>
+            <img src={bootstrap} alt="logo" width="40" height="40"/>
+            <img src={angular} alt="logo" width="40" height="40"/>
         </div>
       </div>
 
@@ -183,15 +192,16 @@ export default function SimpleSlider() {
         <img src={Fonasa} alt="logo" width="170" />
         <h3>Fonasa (2023)</h3>
         <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
-        <a href="https://nuevo.fonasa.gob.cl/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la web</button>
+        <a href="https://nuevo.fonasa.gob.cl/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
-            <img src={js} alt="logo" width="40"/>
-            <img src={bootstrap} alt="logo" width="40"/>
-            <img src={wordpress} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
+            <img src={js} alt="logo" width="40" height="40"/>
+            <img src={bootstrap} alt="logo" width="40" height="40"/>
+            <img src={wordpress} alt="logo" width="40" height="40"/>
         </div>
       </div>
 
@@ -199,13 +209,14 @@ export default function SimpleSlider() {
         <img src={Capitaria} alt="logo" width="180"  />
         <h3>Capitaria (2015)</h3>
         <p>Sitio web no disponible actualmente. Adjunto maqueta formato landing page para ventas.</p>
-        <a href="https://bakt.cl/Proyectos/Capitaria/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la landing</button>
+        <a href="https://bakt.cl/Proyectos/Capitaria/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la landing
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
-            <img src={bootstrap} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
+            <img src={bootstrap} alt="logo" width="40" height="40"/>
         </div>
       </div>
 
@@ -213,14 +224,15 @@ export default function SimpleSlider() {
         <img src={Sercotec} alt="logo" width="180" style={{margin:'0'}} />
         <h3>Barrios comerciales (2018)</h3>
         <p>Sitio web desarrollado diectamente con Sercotec del ministerio de Economía.</p>
-        <a href="https://www.sercotec.cl/barrios-comerciales/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la web</button>
+        <a href="https://www.sercotec.cl/barrios-comerciales/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={css} alt="logo" width="40"/>
-            <img src={bootstrap} alt="logo" width="40"/>
-            <img src={wordpress} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
+            <img src={bootstrap} alt="logo" width="40" height="40"/>
+            <img src={wordpress} alt="logo" width="40" height="40"/>
         </div>
       </div>
 
@@ -228,15 +240,16 @@ export default function SimpleSlider() {
         <img src={Bata} alt="logo" width="180" style={{margin:'0'}} />
         <h3>Bata (2021)</h3>
         <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
-        <a href="https://www.bata.cl/" rel="noreferrer" target="_blank">
-          <button class="boton boton-bg">Ir a la web</button>
+        <a href="https://www.bata.cl/" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="50" alt="url" />
+          Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40"/>
-            <img src={sass} alt="logo" width="40"/>
-            <img src={js} alt="logo" width="40"/>
-            <img src={bootstrap} alt="logo" width="40"/>
-            <img src={vtex} alt="logo" width="40"/>
+            <img src={html} alt="logo" width="40" height="40"/>
+            <img src={sass} alt="logo" width="40" height="40"/>
+            <img src={js} alt="logo" width="40" height="40"/>
+            <img src={bootstrap} alt="logo" width="40" height="40"/>
+            <img src={vtex} alt="logo" width="40" height="40"/>
         </div>
       </div>
 

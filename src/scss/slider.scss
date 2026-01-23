@@ -8,9 +8,40 @@
 
 	p {
 		color: #ccc;
+		opacity: 0.8;
+		transition: 0.5s;
+		&:hover {
+			opacity: 1;
+			color: white;
+			transition: 0.5s;
+		}
 	}
 	h3 {
 		margin: 1rem;
+	}
+	.url {
+		font-family: "Roboto Condensed", sans-serif;
+		letter-spacing: 0.5px;
+		font-size: 1.5rem;
+		color: #7088a0;
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		text-transform: uppercase;
+		font-weight: bold;
+		transition: 0.5s;
+		img {
+			transition: 0.5s;
+		}
+		&:hover {
+            color: #f0f0f0 !important;
+            transition: 0.5s;
+			img {
+                fill: #f0f0f0;
+                filter: brightness(3);
+                transition: 0.5s;
+            }
+        }
 	}
 	.skills {
 		display: flex;
@@ -18,7 +49,7 @@
 	    gap: 0rem;
 	    flex-wrap: wrap;
 		img {
-			opacity: 0.5;
+			opacity: 0.4;
 			transition: 0.3s;
 		}
 		img:hover {

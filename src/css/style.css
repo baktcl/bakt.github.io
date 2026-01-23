@@ -85,7 +85,7 @@ b, strong {
 .boton {
   background: #fff;
   color: #5b5b5b;
-  width: 300px;
+  width: 45%;
   display: inline-block;
   text-align: center;
   font-weight: bold;
@@ -117,7 +117,7 @@ b, strong {
 
 @media (min-width: 992px) {
   .boton {
-      margin-right: .9rem !important;
+      margin-right: 1rem !important;
   }
 }
 
@@ -153,5 +153,9 @@ section .container {
 @media (min-width: 320px) and (max-width: 768px) { 
  .full-screen {
     padding: 2rem 0;
+  }
+  .boton {
+    width: 100%;
+    margin-bottom: 0.5rem;
   }
 }

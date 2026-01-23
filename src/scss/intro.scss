@@ -20,26 +20,31 @@
 		    }
 		}
 	}
-    .caja {
-        padding:2rem 1rem;
-        filter: grayscale(100%);
-        transition: 0.3s;
-        &:hover {
-            filter: grayscale(0%);
+    .cajas {
+        margin-bottom: 1.5rem;
+        .caja {
+            padding:2rem 1rem;
+            filter: grayscale(100%);
             transition: 0.3s;
+            &:hover {
+                filter: grayscale(0%);
+                transition: 0.3s;
+            }
         }
     }
 }
 
 @media (max-width: 1024px) { 
     #introduccion {
-        .caja {
-            filter: grayscale(0%);
+        .cajas {
+            .caja {
+                filter: grayscale(0%);
+                transition: 0.3s;
+                padding: 2rem 0;
+            }
         }
     }
 }
-
-
 
 .flecha {
 	text-align: center;

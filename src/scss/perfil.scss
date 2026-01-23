@@ -88,7 +88,7 @@
       padding: 1rem;
     }
     .animated-text {
-        height: 110px;
+      height: 110px;
     }
     .animated-item {
       left: 0;
@@ -99,5 +99,11 @@
     .about .boton {
       width: 100%!important;
     }
+  }
+}
+
+@media (min-width: 1200px) { 
+  .about-text {
+    padding: 0!important;
   }
 }
