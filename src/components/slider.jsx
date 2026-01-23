@@ -58,12 +58,11 @@ export default function SimpleSlider() {
   };
 
   useEffect(() => {
-  // Ejecuta un resize apenas cargue y otro brevemente después
   window.dispatchEvent(new Event('resize'));
   
   const timer = setTimeout(() => {
     window.dispatchEvent(new Event('resize'));
-  }, 300); // 300ms es el dulce punto medio
+  }, 300);
 
   return () => clearTimeout(timer);
 }, []);
