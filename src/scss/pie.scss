@@ -1,10 +1,9 @@
 .pie {
-    padding: 1rem 2em;
-    background: #181818;
-}
+  padding: 1rem 2em;
+  background: #181818;
 
-.pie a {
-    color: #7088a0!important;
+  a {
+    color: #7088a0 !important;
     font-weight: 600;
     display: block;
     cursor: pointer;
@@ -12,34 +11,34 @@
     line-height: 1.8;
     transition: 0.5s;
     font-family: "Maven Pro", sans-serif;
-}
 
-.pie a:hover {
-    color: #f0f0f0!important;
-    transition: 0.5s;
-}
+    &:hover {
+      color: #f0f0f0 !important;
+      transition: 0.5s;
 
-.pie a:hover img {
-    fill: #f0f0f0;
-    filter: brightness(3);
-    transition: 0.5s;
-}
+      img {
+        fill: #f0f0f0;
+        filter: brightness(3);
+        transition: 0.5s;
+      }
+    }
+  }
 
-.pie span {
+  span {
     color: #a0a0a0;
     font-weight: 400;
     text-transform: uppercase;
     line-height: 1.8;
     font-family: "Maven Pro", sans-serif;
-}
+  }
 
-.pie hr {
+  hr {
     border-color: white;
-    max-width: 150px;
+    max-width: 200px;
     margin: 1.1rem auto;
-}
+  }
 
-.pie button {
+  button {
     background: #7088a0;
     color: #ffffff;
     width: 100%;
@@ -50,33 +49,34 @@
     padding: 13px 29px;
     border: 0;
     font-size: 14px;
-    margin: 7px auto!important;
+    margin: 7px auto !important;
     line-height: normal;
     text-transform: uppercase;
     overflow: hidden;
     transition: all 0.4s ease;
     letter-spacing: 1.5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.05);
-}
 
-.pie button:hover {
-  background: #86a1bf;
-  color: #ffffff;
-  border: 0 transparent solid;
-  outline: inherit;
-}
+    &:hover {
+      background: #86a1bf;
+      color: #ffffff;
+      border: 0 transparent solid;
+      outline: inherit;
+    }
+  }
 
-.pie img {
+  img {
     margin: 3px 10px;
     transition: 0.5s;
+  }
 }
 
 .espacio-pie {
-    margin: 2rem 0!important;
+  margin: 2rem 0 !important;
 }
 
-@media (min-width: 320px) and (max-width: 768px) { 
-    .pie {
-        padding: 2.5rem;
-    }
+@media (min-width: 320px) and (max-width: 768px) {
+  .pie {
+    padding: 2.5rem;
+  }
 }

@@ -1,0 +1,71 @@
+.proyecto {
+  h2, p, img, button {
+    margin: 1rem;
+  }
+}
+
+.proyectos {
+  background-color: #181818;
+  color: #f0f0f0;
+
+  .slick-dots li {
+    button:before {
+      color: #f0f0f0;
+      font-size: 12px;
+      transition: 0.3s;
+    }
+
+    &.slick-active button:before {
+      color: #7090a2;
+    }
+  }
+
+  .slick-prev:before {
+    font-size: 30px !important;
+    transition: 0.3s;
+    opacity: 0.3 !important;
+    font-family: inherit !important;
+  }
+}
+
+.slick-next:before {
+  font-size: 30px !important;
+  transition: 0.3s;
+  opacity: 0.3 !important;
+  font-family: inherit !important;
+}
+
+.proyectos .slick-prev:hover:before, .slick-next:hover:before {
+  transition: 0.3s;
+  opacity: 1 !important;
+}
+
+.proyectos {
+  .slick-prev:before {
+    content: '◄';
+  }
+
+  .slick-next:before {
+    content: '►';
+  }
+}
+
+/*
+.proyectos .slick-prev, .slick-next {
+    display: none!important;
+}
+    */
+
+.slick-slide {
+  padding: 2rem 4rem 1rem 4rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .slick-slide {
+    padding: 2rem 0.5rem 1rem 0.5rem;
+  }
+
+  .proyecto img {
+    margin: 0.8rem;
+  }
+}

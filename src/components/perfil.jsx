@@ -20,9 +20,9 @@ function perfil() {
                         </div>
                         <p>Me dedico al prototipado, maquetación e implementación de interfaces web, con 10 años de experiencia en el rubro digital.</p>
                         
-                        <div class="custom-btn-group mt-4">
-                            <a href="#Proyectos" class=" custom-btn custom-btn-bg custom-btn-link">Proyectos</a>
-                            {/* <a href="#Contacto" class=" mr-lg-2 custom-btn"> Contacto</a> */}
+                        <div class="boton-group mt-4">
+                            <a href="#Proyectos" class=" boton boton-bg boton-link">Proyectos</a>
+                            {/* <a href="#Contacto" class=" mr-lg-2 boton"> Contacto</a> */}
                         </div>
 
                         <div class="redes">

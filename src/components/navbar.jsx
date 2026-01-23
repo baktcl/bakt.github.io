@@ -5,7 +5,7 @@ function Nav() {
         <nav class="navegacion" role="navigation">
             <div class="container">
                 <div class="fh5co-top-logo">
-                    <div id="fh5co-logo">
+                    <div id="bakt-logo">
                         <a href="https://bakt.cl/">
                             <img src={baktlogo} width="50" height="50" alt="bakt.cl" class="logotipo" />
                         </a>
