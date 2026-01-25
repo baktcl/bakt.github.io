@@ -166,5 +166,5 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
 }
 
 .exito img, .error img {
-    margin: 1rem auto;
+    margin: 1rem auto!important;
 }
