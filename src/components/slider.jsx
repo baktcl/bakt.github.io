@@ -76,7 +76,7 @@ export default function SimpleSlider() {
         <h3>Guess (2021)</h3>
         <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
         <a href="https://www.guess.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la web
         </a>
         <div class="skills">
@@ -93,7 +93,7 @@ export default function SimpleSlider() {
         <h3>Unired (2024)</h3>
         <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
         <a href="https://www.unired.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la web
         </a>
         <div class="skills">
@@ -110,7 +110,7 @@ export default function SimpleSlider() {
         <h3>Construmart (2021)</h3>
         <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
         <a href="https://www.construmart.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la web
         </a>
         <div class="skills">
@@ -127,7 +127,7 @@ export default function SimpleSlider() {
         <h3>Chile Agrícola (2020)</h3>
         <p>Sitio web desarrollado a través de Fucoa del ministerio de agricultura de Chile.</p>
         <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la web
         </a>
         <div class="skills">
@@ -144,7 +144,7 @@ export default function SimpleSlider() {
         <h3>Colloky (2021)</h3>
         <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
         <a href="https://www.colloky.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la web
         </a>
         <div class="skills">
@@ -161,7 +161,7 @@ export default function SimpleSlider() {
         <h3>Vitamina (2016)</h3>
         <p>Sitio web desarrollado directamente con jardines infantiles Vitamina.</p>
         <a href="https://www.vitamina.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la web
         </a>
         <div class="skills">
@@ -176,7 +176,7 @@ export default function SimpleSlider() {
         <h3>Sakura (2024)</h3>
         <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
         <a href="https://www.sakuraexpress.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la web
         </a>
         <div class="skills">
@@ -193,7 +193,7 @@ export default function SimpleSlider() {
         <h3>Fonasa (2023)</h3>
         <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
         <a href="https://nuevo.fonasa.gob.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la web
         </a>
         <div class="skills">
@@ -210,7 +210,7 @@ export default function SimpleSlider() {
         <h3>Capitaria (2015)</h3>
         <p>Sitio web no disponible actualmente. Adjunto maqueta formato landing page para ventas.</p>
         <a href="https://bakt.cl/Proyectos/Capitaria/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la landing
         </a>
         <div class="skills">
@@ -225,7 +225,7 @@ export default function SimpleSlider() {
         <h3>Barrios comerciales (2018)</h3>
         <p>Sitio web desarrollado diectamente con Sercotec del ministerio de Economía.</p>
         <a href="https://www.sercotec.cl/barrios-comerciales/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la web
         </a>
         <div class="skills">
@@ -241,7 +241,7 @@ export default function SimpleSlider() {
         <h3>Bata (2021)</h3>
         <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
         <a href="https://www.bata.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="50" alt="url" />
+          <img src={blank} width="45" alt="url" />
           Ir a la web
         </a>
         <div class="skills">
