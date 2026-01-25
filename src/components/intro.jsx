@@ -16,7 +16,7 @@ function Intro() {
     return (
         <section class="about d-lg-flex justify-content-center align-items-center" id="introduccion">
             <div class="container">
-                <div class="row cajas"> 
+                <div class="row cajas g-1"> 
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
                         <h2>Prototipado</h2>
                         <p>Diseño de interfaces en Figma/Adobe XD, creando prototipos interactivos orientados a la experiencia de usuario.</p>

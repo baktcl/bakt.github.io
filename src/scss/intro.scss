@@ -23,7 +23,7 @@
     .cajas {
         margin-bottom: 1.5rem;
         .caja {
-            padding:2rem 1rem;
+            padding:2rem 1rem 0 0;
             filter: grayscale(100%);
             transition: 0.3s;
             &:hover {
