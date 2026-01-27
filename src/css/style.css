@@ -114,6 +114,7 @@ b, strong {
   color: #ffffff;
   border: 0 transparent solid;
   outline: inherit;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 
