@@ -101,11 +101,7 @@
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-   -webkit-transform:scale(1.20); /* Safari and Chrome */
-    -moz-transform:scale(1.20); /* Firefox */
-    -ms-transform:scale(1.20); /* IE 9 */
-    -o-transform:scale(1.20); /* Opera */
-     transform:scale(1.20);
+     transform: initial;
      opacity: 1;
 }
 
