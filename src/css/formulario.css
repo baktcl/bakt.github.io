@@ -17,7 +17,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
     width: 100%;
     justify-content: space-around;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 5px;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
