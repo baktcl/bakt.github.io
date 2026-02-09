@@ -68,7 +68,7 @@
   margin-left: 1rem;
   &:hover {
     background: linear-gradient(var(--gradient-angle), rgb(24 24 24), rgb(255 255 255),  rgb(24 24 24));
-    animation: rotation 10s linear 0s infinite normal forwards;
+    animation: brillo 10s linear 0s infinite normal forwards;
     backdrop-filter: blur(50px);
   }
 }
@@ -91,6 +91,11 @@
         }
 
 @media (min-width: 320px) and (max-width: 1024px) {
+  .slick-slide {
+    background: linear-gradient(var(--gradient-angle), rgb(24 24 24), rgb(255 255 255),  rgb(24 24 24));
+    animation: brillo 10s linear 0s infinite normal forwards;
+    backdrop-filter: blur(50px);
+  }
   .proyecto img {
     margin: 0.8rem;
   }
