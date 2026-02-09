@@ -70,7 +70,16 @@
     background: linear-gradient(var(--gradient-angle), rgb(24 24 24), rgb(255 255 255),  rgb(24 24 24));
     animation: brillo 10s linear 0s infinite normal forwards;
     backdrop-filter: blur(50px);
+    transform-style: preserve-3d;
+    transition: transform 0.15s ease-out;
   }
+}
+
+.slick-slide > * {
+  transform: translateZ(30px);
+}
+.slick-track {
+  perspective: 1000px;
 }
 @keyframes brillo 
         {
@@ -92,9 +101,6 @@
 
 @media (min-width: 320px) and (max-width: 1024px) {
   .slick-slide {
-    background: linear-gradient(var(--gradient-angle), rgb(24 24 24), rgb(255 255 255),  rgb(24 24 24));
-    animation: brillo 10s linear 0s infinite normal forwards;
-    backdrop-filter: blur(50px);
   }
   .proyecto img {
     margin: 0.8rem;
