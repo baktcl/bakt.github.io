@@ -1,7 +1,7 @@
 .proyecto {
   padding: 3rem 1rem 2rem 1rem!important;
   background-color: #181818;
-  opacity: 0.96;
+  opacity: 1;
   &:hover {
   }
   h2, p, img, button {
@@ -62,10 +62,9 @@
     */
 
 .slick-slide {
-  padding: 2px;
+  padding: 1px;
   background: #181818;
   border-radius: 0;
-  margin-left: 1rem;
   &:hover {
     background: linear-gradient(var(--gradient-angle), rgb(24 24 24), rgb(255 255 255),  rgb(24 24 24));
     animation: brillo 10s linear 0s infinite normal forwards;
@@ -75,12 +74,6 @@
   }
 }
 
-.slick-slide > * {
-  transform: translateZ(30px);
-}
-.slick-track {
-  perspective: 1000px;
-}
 @keyframes brillo 
         {
            0%
