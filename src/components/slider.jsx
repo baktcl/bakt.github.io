@@ -81,6 +81,7 @@ export default function SimpleSlider() {
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
             <img src={sass} alt="logo" width="40" height="40"/>
             <img src={js} alt="logo" width="40" height="40"/>
             <img src={bootstrap} alt="logo" width="40" height="40"/>
@@ -115,6 +116,7 @@ export default function SimpleSlider() {
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
             <img src={sass} alt="logo" width="40" height="40"/>
             <img src={js} alt="logo" width="40" height="40"/>
             <img src={bootstrap} alt="logo" width="40" height="40"/>
@@ -149,6 +151,7 @@ export default function SimpleSlider() {
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
             <img src={sass} alt="logo" width="40" height="40"/>
             <img src={js} alt="logo" width="40" height="40"/>
             <img src={bootstrap} alt="logo" width="40" height="40"/>
@@ -246,6 +249,7 @@ export default function SimpleSlider() {
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="40" height="40"/>
+            <img src={css} alt="logo" width="40" height="40"/>
             <img src={sass} alt="logo" width="40" height="40"/>
             <img src={js} alt="logo" width="40" height="40"/>
             <img src={bootstrap} alt="logo" width="40" height="40"/>
