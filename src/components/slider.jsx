@@ -74,7 +74,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Guess} alt="logo" width="180"/>
         <h3>Guess (2021)</h3>
-        <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
+        <p>Hecho en VTEX, asegurando consistencia visual, adaptación a lineamientos de marca a nivel internacional a la marca en Chile.</p>
         <a href="https://www.guess.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web
@@ -91,7 +91,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Unired} alt="logo" width="180" style={{margin:'0'}} />
         <h3>Unired (2024)</h3>
-        <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
+        <p>Prototipado e implementación de interfaces para plataforma de pagos de alto tráfico, priorizando claridad en flujos transaccionales, rendimiento y accesibilidad en entornos Angular.</p>
         <a href="https://www.unired.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web
@@ -108,7 +108,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Construmart} alt="logo" width="180" />
         <h3>Construmart (2021)</h3>
-        <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
+        <p>Prototipado y desarrollo para e-commerce en VTEX, adaptación responsive y mejora de la experiencia de usuario en procesos de búsqueda.</p>
         <a href="https://www.construmart.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web
@@ -125,7 +125,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Fucoa} alt="logo" width="180"  />
         <h3>Chile Agrícola (2020)</h3>
-        <p>Sitio web desarrollado a través de Fucoa del ministerio de agricultura de Chile.</p>
+        <p>Diseño y desarrollo front-end sobre WordPress para plataforma informativa del Ministerio de Agricultura, optimizando arquitectura de contenidos y experiencia de navegación.</p>
         <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web
@@ -142,7 +142,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Colloky} alt="logo" width="180" style={{margin:'0'}} />
         <h3>Colloky (2021)</h3>
-        <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
+        <p>Hecho en VTEX, traduciendo lineamientos de marca a componentes reutilizables y asegurando coherencia visual en catálogo y checkout.</p>
         <a href="https://www.colloky.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web
@@ -159,7 +159,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Vitamina} alt="logo" width="180" style={{margin:'0'}} />
         <h3>Vitamina (2016)</h3>
-        <p>Sitio web desarrollado directamente con jardines infantiles Vitamina.</p>
+        <p>Diseño y desarrollo del sitio corporativo en WordPress, creando una estructura clara y adaptable que facilitara la navegación y comunicación institucional.</p>
         <a href="https://www.vitamina.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web
@@ -174,7 +174,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Sakura} alt="logo" width="180" />
         <h3>Sakura (2024)</h3>
-        <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
+        <p>Desarrollo de interfaces y componentes en Angular para plataforma comercial, optimizando tiempos de compra y flujos.</p>
         <a href="https://www.sakuraexpress.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web
@@ -191,7 +191,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Fonasa} alt="logo" width="170" />
         <h3>Fonasa (2023)</h3>
-        <p>Sitio web desarrollado a través de la agencia Anticipa.</p>
+        <p>Plataforma institucional de alto alcance, priorizando accesibilidad, estructura semántica y creación de intranet sobre WordPress.</p>
         <a href="https://nuevo.fonasa.gob.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web
@@ -208,7 +208,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Capitaria} alt="logo" width="180"  />
         <h3>Capitaria (2015)</h3>
-        <p>Sitio web no disponible actualmente. Adjunto maqueta formato landing page para ventas.</p>
+        <p>Diseño y maquetación de landing pages orientadas a conversión, enfocadas en captación de clientes y optimización visual para campañas digitales.</p>
         <a href="https://bakt.cl/Proyectos/Capitaria/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la landing
@@ -223,7 +223,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Sercotec} alt="logo" width="180" style={{margin:'0'}} />
         <h3>Barrios comerciales (2018)</h3>
-        <p>Sitio web desarrollado diectamente con Sercotec del ministerio de Economía.</p>
+        <p>Plataforma institucional de Sercotec hecha en Wordpress, mejorando usabilidad y acceso a información para pymes a nivel nacional.</p>
         <a href="https://www.sercotec.cl/barrios-comerciales/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web
@@ -239,7 +239,7 @@ export default function SimpleSlider() {
       <div class="proyecto">
         <img src={Bata} alt="logo" width="180" style={{margin:'0'}} />
         <h3>Bata (2021)</h3>
-        <p>Sitio web desarrollado a través de la agencia Ecomsur.</p>
+        <p>Entorno VTEX, implementando mejoras visuales y estructurales orientadas a optimizar la experiencia de compra online.</p>
         <a href="https://www.bata.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web

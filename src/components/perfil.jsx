@@ -14,11 +14,13 @@ function perfil() {
                             <span class="mr-2 d-inline animated-item-2">Hola, soy</span>
                                 <div class="animated-info">
                                     <h1 class="animated-item">Bryan Köhnenkampf</h1>
-                                    <h2 class="animated-item">Front-end dev</h2>
+                                    <h2 class="animated-item">Front-end Dev</h2>
                                     <h2 class="animated-item">Diseñador UX/UI</h2>
                                 </div>
                         </div>
-                        <p>Me dedico al prototipado, maquetación e implementación de interfaces web, con 10 años de experiencia en el rubro digital.</p>
+                        <p>Me dedico al prototipado, maquetación e implementación de interfaces web, 
+                            con más de 10 años de experiencia en proyectos digitales.
+                        </p>
                         
                         <div class="boton-group mt-4">
                             <a href="#Proyectos" class=" boton boton-bg boton-link">Proyectos</a>
