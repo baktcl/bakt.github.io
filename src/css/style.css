@@ -130,6 +130,7 @@ b, strong {
   padding: 5px;
   transition: 0.4s;
   margin: 1rem 5px;
+  margin-right: 8px;
   opacity: 0.6;
 }
 

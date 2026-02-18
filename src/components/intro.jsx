@@ -34,8 +34,8 @@ function Intro() {
                         <div class="skills">
                             <img src={html2} alt="logo" width="40"/>
                             <img src={css2} alt="logo" width="40"/>
-                            <img src={sass2} alt="logo" width="40"/>
                             <img src={js2} alt="logo" width="40"/>
+                            <img src={sass2} alt="logo" width="40"/>
                             <img src={bootstrap2} alt="logo" width="40"/>
                         </div>
                     </div>
