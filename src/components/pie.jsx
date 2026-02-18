@@ -62,7 +62,7 @@ function Pie() {
                             </div>
                             <div class="row formulario">
                                 <input type="email"
-                                        placeholder="Email" 
+                                        placeholder="E-mail" 
                                         id="email" 
                                         name="email" 
                                         required />

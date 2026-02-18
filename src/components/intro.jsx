@@ -11,6 +11,7 @@ import photoshop from "../images/skills/photoshop-color.svg";
 import illustrator from "../images/skills/illustrator-color.svg";
 import xd from "../images/skills/adobe-xd-color.svg";
 import figma from "../images/skills/figma-color.svg";
+import liferay from "../images/skills/liferay.svg";
 
 
 function Intro() {
@@ -47,6 +48,7 @@ function Intro() {
                             <img src={react2} alt="logo" width="40"/>
                             <img src={wordpress2} alt="logo" width="40"/>
                             <img src={vtex2} alt="logo" width="40"/>
+                            <img src={liferay} alt="logo" width="40"/>
                         </div>
                     </div>
                 </div>
