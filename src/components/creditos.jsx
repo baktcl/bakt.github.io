@@ -1,8 +1,12 @@
+import baktlogo from "../images/bakt-logo.svg";
 function Creditos() {
     return (
         <div className="creditos">
-            <p>Sitio web desarrollado en React. Diseño y programación por Bryan Köhnenkampf</p>
-            <a href="https://bakt.cl/">bakt.cl</a>
+            <a href="https://bakt.cl/">
+                <img src={baktlogo} width="25" height="25" alt="bakt.cl" class="logotipo" />
+            </a>
+            <p>Sitio web desarrollado en React. Diseño y codificación por </p>
+            <a href="https://bakt.cl/">Bryan Köhnenkampf</a>
         </div>
     )
 }
