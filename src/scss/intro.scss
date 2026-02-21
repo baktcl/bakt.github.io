@@ -71,3 +71,118 @@
     transform: translateY(-15px);
   }
 }
+
+.skill-box{
+    width: 100%;
+    margin: 3px 0;
+}
+.skill-box .title{
+    display: block;
+    color: white;
+    padding: 0px;
+    height: 1rem;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.skill-box img {
+    float: left;
+    margin: 3px 10px 3px 15px!important;
+}
+.skill-box .skill-bar{
+    height: 30px;
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 6px;
+    background: rgba(0,0,0,0.0);
+}
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 50px;
+    animation: progress 12.5s ease-in-out forwards;
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+}
+.skill-per.html{
+    background: #E6552E;
+    width: 90%;
+    animation-delay: 0.1s;
+}
+.skill-per.css{
+    background: #2478BC;
+    width: 100%;
+    animation-delay: 0.1s;
+}
+.skill-per.javascript{
+    background: #FC9B36;
+    width: 60%;
+    animation-delay: 0.2s;
+}
+.skill-per.bootstrap{
+    background: #634183;
+    width: 80%;
+    animation-delay: 0.2s;
+}
+.skill-per.sass{
+    background: #CF6B9D;
+    width: 90%;
+    animation-delay: 0.2s;
+}
+.skill-per.angular{
+    background: #E3393E;
+    width: 70%;
+    animation-delay: 0.1s;
+}
+.skill-per.react{
+    background: #2FAEE3;
+    width: 90%;
+    animation-delay: 0.2s;
+}
+.skill-per.wordpress{
+    background: #2377BC;
+    width: 100%;
+    animation-delay: 0.2s;
+}
+.skill-per.vtex{
+    background: #FF3A6C;
+    width: 80%;
+    animation-delay: 0.2s;
+}
+.skill-per.photoshop{
+    background: #2478BC;
+    width: 100%;
+    animation-delay: 0.1s;
+}
+.skill-per.illustrator{
+    background: #FC9B36;
+    width: 90%;
+    animation-delay: 0.2s;
+}
+.skill-per.figma{
+    background: #333;
+    width: 70%;
+    animation-delay: 0.2s;
+}
+.skill-per.xd{
+    background: #CF6B9D;
+    width: 80%;
+    animation-delay: 0.2s;
+}
+
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
