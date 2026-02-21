@@ -40,6 +40,15 @@
             .caja {
                 filter: grayscale(0%);
                 transition: 0.3s;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) { 
+    #introduccion {
+        .cajas {
+            .caja {
                 padding: 2rem 0;
             }
         }
@@ -81,7 +90,6 @@
     color: #F0F0F0;
     padding: 0px;
     height: 1rem;
-    width: 100%;
     font-size: 13px;
     line-height: 30px;
     font-weight: bold;
