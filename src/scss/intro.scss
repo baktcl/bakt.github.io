@@ -78,16 +78,17 @@
 }
 .skill-box .title{
     display: block;
-    color: white;
+    color: #F0F0F0;
     padding: 0px;
     height: 1rem;
+    width: 100%;
     font-size: 13px;
     line-height: 30px;
     font-weight: bold;
     letter-spacing: 1px;
     text-align: left;
     text-transform: uppercase;
-    transition: 0.3s;
+    transition: ease-in 0.3s;
 }
 .skill-box img {
     float: left;
@@ -110,6 +111,7 @@
     opacity: 0;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 .skill-per.html{
     background: #E6552E;
