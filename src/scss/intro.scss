@@ -63,10 +63,12 @@
 	animation: bounce 5s infinite;
     opacity: 1;
     transition: 0.3s;
+    filter: brightness(0);
+    
 }
 
 .flecha:hover {
-    opacity: 0.4;
+    filter: brightness(1);
     transition: 0.3s;
 }
 @keyframes bounce {
