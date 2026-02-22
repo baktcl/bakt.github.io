@@ -6,8 +6,10 @@ function Creditos() {
                 <img src={baktlogo} width="25" height="25" alt="bakt.cl" class="logotipo" />
             </a>
             <p>Sitio web desarrollado en React.</p>
-            <p>Diseño y codificación por:</p>
-            <a href="https://bakt.cl/">Bryan Köhnenkampf</a>
+            <p>Diseño y codificación por</p>
+            <a href="https://bakt.cl/">
+                Bryan Köhnenkampf
+            </a>
         </div>
     )
 }
