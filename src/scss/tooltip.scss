@@ -154,6 +154,14 @@
   }
 }
 
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  [tooltip]::before,
+    [tooltip]::after {
+      display: none!important;
+    }
+}
+
 /* FX All The Things */ 
 [tooltip]:not([flow]):hover::before,
 [tooltip]:not([flow]):hover::after,
