@@ -56,13 +56,13 @@ export default function Hamburguesa() {
             <hr></hr>
           </li>
           <div class="redes">
-            <a class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noopener noreferrer">
+            <a tooltip="Linkedin" flow="down" class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noopener noreferrer">
               <img src={linearli} alt="Linkedin" />
             </a> 
-            <a class="social" href="https://www.instagram.com/bkampft/" target="_blank" rel="noopener noreferrer">
+            <a tooltip="Instagram" flow="down" class="social" href="https://www.instagram.com/bkampft/" target="_blank" rel="noopener noreferrer">
               <img src={linearig} alt="Instagram" />
             </a>
-            <a class="social" href="https://api.whatsapp.com/send?phone=56962822951" target="_blank" rel="noopener noreferrer">
+            <a tooltip="Whatsapp" flow="down" class="social" href="https://api.whatsapp.com/send?phone=56962822951" target="_blank" rel="noopener noreferrer">
               <img src={linearwa} alt="Whatsapp" />
             </a>
           </div>

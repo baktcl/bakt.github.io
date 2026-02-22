@@ -28,13 +28,13 @@ function perfil() {
                         </div>
 
                         <div class="redes">
-                            <a href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">
+                            <a tooltip="Linkedin" flow="down" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">
                                 <img src={linkedin} class="img-fluid" alt="linkedin" />
                             </a>
-                            <a href="https://www.instagram.com/bkampft/" target="_blank" rel="noreferrer">
+                            <a tooltip="Instagram" flow="down" href="https://www.instagram.com/bkampft/" target="_blank" rel="noreferrer">
                                 <img src={instagram} class="img-fluid" alt="instagram" />
                             </a>
-                            <a href="https://api.whatsapp.com/send?phone=56962822951" target="_blank" rel="noreferrer">
+                            <a tooltip="Whatsapp" flow="down" href="https://api.whatsapp.com/send?phone=56962822951" target="_blank" rel="noreferrer">
                                 <img src={whatsapp} class="img-fluid" alt="whatsapp" />
                             </a>
                         </div>

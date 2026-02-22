@@ -25,7 +25,7 @@ function Clientes() {
         <div class="slider">
             <div class="slide-track">
                 <div class="slide">
-                    <img src={Sercotec} class="img-fluid" alt="logo" width="150" height="100" />
+                    <img tooltip="Sercotec" flow="down" src={Sercotec} class="img-fluid" alt="logo" width="150" height="100" />
                 </div>
                 <div class="slide">
                     <img src={Amuch} class="img-fluid" alt="logo" width="150" height="100" />
