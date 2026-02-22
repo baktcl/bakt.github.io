@@ -41,7 +41,7 @@ function Pie() {
         <section class="pie full-screen d-lg-flex justify-content-center align-items-center" id="Contacto">
             <div class="container">
                 <div class="row"> 
-                    <div class="order-1 order-md-1 col-lg-4 col-md-12 col-12 text-center espacio-pie">
+                    <div class="order-1 order-lg-1 col-lg-4 col-md-12 col-12 text-center espacio-pie">
                         <a href="#Perfil">Perfil</a>
                         <a href="#Proyectos">Proyectos</a>
                         <a href="../Curriculum.pdf" target="_blank">Curriculum</a>
@@ -51,7 +51,7 @@ function Pie() {
                         <a href="https://api.whatsapp.com/send?phone=56962822951" target="_blank" rel="noreferrer">Whatsapp</a>
                     </div>
 
-                    <div class="order-3 order-md-2 col-lg-4 col-md-12 col-12 text-center espacio-pie">
+                    <div class="order-3 order-lg-2 col-lg-4 col-md-12 col-12 text-center espacio-pie">
                         <form onSubmit={handleSubmit}>
                             <div class="row formulario">
                                 <input type="text"
@@ -83,7 +83,7 @@ function Pie() {
                         </form>
                     </div>
 
-                    <div class="order-2 order-md-3 col-lg-4 col-md-12 col-12 text-center espacio-pie">
+                    <div class="order-2 order-lg-3 col-lg-4 col-md-12 col-12 text-center espacio-pie">
                         <div class="row animate-box">
                             <span>
                                 <a href="mailto:kampf@live.cl">

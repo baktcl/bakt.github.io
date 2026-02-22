@@ -30,11 +30,12 @@
     p {
         color: #ccc;
         font-size: 13px;
-        font-weight: 400;
-        font-family: "Maven Pro", sans-serif;
+        font-weight: 300;
+        font-family: "Outfit", sans-serif;
         margin: 0;
         text-align: center;
         margin-left: 0.5rem;
+        letter-spacing: 1px;
         @media (max-width: 1000px) { 
             flex-basis: 100%;
         }
@@ -43,7 +44,8 @@
         color: #7088a0;
         font-size: 13px;
         font-weight: bold;
-        font-family: "Maven Pro", sans-serif;
+        font-family: "Outfit", sans-serif;
+        letter-spacing: 1px;
         margin-left: 5px;
         transition: 0.3s;
         &:hover {
