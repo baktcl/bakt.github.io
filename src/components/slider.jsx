@@ -80,12 +80,12 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40" height="40"/>
-            <img src={css} alt="logo" width="40" height="40"/>
-            <img src={sass} alt="logo" width="40" height="40"/>
-            <img src={js} alt="logo" width="40" height="40"/>
-            <img src={bootstrap} alt="logo" width="40" height="40"/>
-            <img src={vtex} alt="logo" width="40" height="40"/>
+            <img src={html} alt="logo" width="33" height="33"/>
+            <img src={css} alt="logo" width="33" height="33"/>
+            <img src={sass} alt="logo" width="33" height="33"/>
+            <img src={js} alt="logo" width="33" height="33"/>
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <img src={vtex} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
@@ -98,11 +98,11 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
-            <img tooltip="Html5" flow="top" src={html} alt="logo" width="40" height="40"/>
-            <img tooltip="Css3" flow="top" src={css} alt="logo" width="40" height="40"/>
-            <img tooltip="Javascript" flow="top" src={js} alt="logo" width="40" height="40"/>
-            <img tooltip="Bootstrap" flow="top" src={bootstrap} alt="logo" width="40" height="40"/>
-            <img tooltip="Angular" flow="top" src={angular} alt="logo" width="40" height="40"/>
+            <img tooltip="Html5" flow="top" src={html} alt="logo" width="33" height="33"/>
+            <img tooltip="Css3" flow="top" src={css} alt="logo" width="33" height="33"/>
+            <img tooltip="Javascript" flow="top" src={js} alt="logo" width="33" height="33"/>
+            <img tooltip="Bootstrap" flow="top" src={bootstrap} alt="logo" width="33" height="33"/>
+            <img tooltip="Angular" flow="top" src={angular} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
@@ -115,12 +115,12 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40" height="40"/>
-            <img src={css} alt="logo" width="40" height="40"/>
-            <img src={sass} alt="logo" width="40" height="40"/>
-            <img src={js} alt="logo" width="40" height="40"/>
-            <img src={bootstrap} alt="logo" width="40" height="40"/>
-            <img src={vtex} alt="logo" width="40" height="40"/>
+            <img src={html} alt="logo" width="33" height="33"/>
+            <img src={css} alt="logo" width="33" height="33"/>
+            <img src={sass} alt="logo" width="33" height="33"/>
+            <img src={js} alt="logo" width="33" height="33"/>
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <img src={vtex} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
@@ -133,11 +133,11 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40" height="40"/>
-            <img src={css} alt="logo" width="40" height="40"/>
-            <img src={js} alt="logo" width="40" height="40"/>
-            <img src={bootstrap} alt="logo" width="40" height="40"/>
-            <img src={wordpress} alt="logo" width="40" height="40"/>
+            <img src={html} alt="logo" width="33" height="33"/>
+            <img src={css} alt="logo" width="33" height="33"/>
+            <img src={js} alt="logo" width="33" height="33"/>
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <img src={wordpress} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
@@ -150,12 +150,12 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40" height="40"/>
-            <img src={css} alt="logo" width="40" height="40"/>
-            <img src={sass} alt="logo" width="40" height="40"/>
-            <img src={js} alt="logo" width="40" height="40"/>
-            <img src={bootstrap} alt="logo" width="40" height="40"/>
-            <img src={vtex} alt="logo" width="40" height="40"/>
+            <img src={html} alt="logo" width="33" height="33"/>
+            <img src={css} alt="logo" width="33" height="33"/>
+            <img src={sass} alt="logo" width="33" height="33"/>
+            <img src={js} alt="logo" width="33" height="33"/>
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <img src={vtex} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
@@ -168,9 +168,9 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40" height="40"/>
-            <img src={css} alt="logo" width="40" height="40"/>
-            <img src={wordpress} alt="logo" width="40" height="40"/>
+            <img src={html} alt="logo" width="33" height="33"/>
+            <img src={css} alt="logo" width="33" height="33"/>
+            <img src={wordpress} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
@@ -183,11 +183,11 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40" height="40"/>
-            <img src={css} alt="logo" width="40" height="40"/>
-            <img src={js} alt="logo" width="40" height="40"/>
-            <img src={bootstrap} alt="logo" width="40" height="40"/>
-            <img src={angular} alt="logo" width="40" height="40"/>
+            <img src={html} alt="logo" width="33" height="33"/>
+            <img src={css} alt="logo" width="33" height="33"/>
+            <img src={js} alt="logo" width="33" height="33"/>
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <img src={angular} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
@@ -200,11 +200,11 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40" height="40"/>
-            <img src={css} alt="logo" width="40" height="40"/>
-            <img src={js} alt="logo" width="40" height="40"/>
-            <img src={bootstrap} alt="logo" width="40" height="40"/>
-            <img src={wordpress} alt="logo" width="40" height="40"/>
+            <img src={html} alt="logo" width="33" height="33"/>
+            <img src={css} alt="logo" width="33" height="33"/>
+            <img src={js} alt="logo" width="33" height="33"/>
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <img src={wordpress} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
@@ -217,9 +217,9 @@ export default function SimpleSlider() {
           Ir a la landing
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40" height="40"/>
-            <img src={css} alt="logo" width="40" height="40"/>
-            <img src={bootstrap} alt="logo" width="40" height="40"/>
+            <img src={html} alt="logo" width="33" height="33"/>
+            <img src={css} alt="logo" width="33" height="33"/>
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
@@ -232,10 +232,10 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40" height="40"/>
-            <img src={css} alt="logo" width="40" height="40"/>
-            <img src={bootstrap} alt="logo" width="40" height="40"/>
-            <img src={wordpress} alt="logo" width="40" height="40"/>
+            <img src={html} alt="logo" width="33" height="33"/>
+            <img src={css} alt="logo" width="33" height="33"/>
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <img src={wordpress} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
@@ -248,12 +248,12 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
-            <img src={html} alt="logo" width="40" height="40"/>
-            <img src={css} alt="logo" width="40" height="40"/>
-            <img src={sass} alt="logo" width="40" height="40"/>
-            <img src={js} alt="logo" width="40" height="40"/>
-            <img src={bootstrap} alt="logo" width="40" height="40"/>
-            <img src={vtex} alt="logo" width="40" height="40"/>
+            <img src={html} alt="logo" width="33" height="33"/>
+            <img src={css} alt="logo" width="33" height="33"/>
+            <img src={sass} alt="logo" width="33" height="33"/>
+            <img src={js} alt="logo" width="33" height="33"/>
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <img src={vtex} alt="logo" width="33" height="33"/>
         </div>
       </div>
 
