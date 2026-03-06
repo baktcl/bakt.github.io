@@ -142,7 +142,7 @@ export default function SimpleSlider() {
       </div>
 
       <div class="proyecto">
-        <img src={Colloky} alt="logo" width="140" style={{margin:'0'}} />
+        <img src={Colloky} alt="logo" width="140" />
         <h3>Colloky - 2021</h3>
         <p>Hecho en VTEX, traduciendo lineamientos de marca a componentes reutilizables y asegurando coherencia visual en catálogo y checkout.</p>
         <a href="https://www.colloky.cl/" rel="noreferrer" target="_blank" class="url" >
