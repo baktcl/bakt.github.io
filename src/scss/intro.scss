@@ -121,11 +121,25 @@
     height: 100%;
     width: 90%;
     border-radius: 50px;
-    animation: progress 12.5s ease-in-out forwards;
     opacity: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+.animacion-1 {
+    animation: progress 11s ease-in-out forwards;
+}
+.animacion-2 {
+    animation: progress 12s ease-in-out forwards;
+}
+.animacion-3 {
+    animation: progress 13s ease-in-out forwards;
+}
+.animacion-4 {
+    animation: progress 14s ease-in-out forwards;
+}
+.animacion-5 {
+    animation: progress 15s ease-in-out forwards;
 }
 .skill-per.html{
     background: #E6552E;

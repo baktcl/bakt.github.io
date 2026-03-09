@@ -24,7 +24,7 @@ function Intro() {
                         <div class="skills">
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per figma">
+                                    <span class="skill-per animacion-1  figma">
                                         <img src={figma} alt="logo" width="24" height="24"/>
                                         <span class="title">Figma</span>
                                     </span>
@@ -32,7 +32,7 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per xd">
+                                    <span class="skill-per animacion-2  xd">
                                         <img src={xd} alt="logo" width="24" height="24"/>
                                         <span class="title">Adobe Xd</span>
                                     </span>
@@ -40,7 +40,7 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per photoshop">
+                                    <span class="skill-per animacion-3  photoshop">
                                         <img src={photoshop} alt="logo" width="24" height="24"/>
                                         <span class="title">Adobe Photoshop</span>
                                     </span>
@@ -48,7 +48,7 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per illustrator">
+                                    <span class="skill-per animacion-4 illustrator">
                                         <img src={illustrator} alt="logo" width="24" height="24"/>
                                         <span class="title">Adobe Illustrator</span>
                                     </span>
@@ -63,7 +63,7 @@ function Intro() {
                         <div class="skills">
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per html">
+                                    <span class="skill-per animacion-1  html">
                                         <img src={html} alt="logo" width="24" height="24"/>
                                         <span class="title">HTML5</span>
                                     </span>
@@ -71,7 +71,7 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per css">
+                                    <span class="skill-per animacion-2  css">
                                         <img src={css} alt="logo" width="24" height="24"/>
                                         <span class="title">CSS3</span>
                                     </span>
@@ -79,7 +79,7 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per javascript">
+                                    <span class="skill-per animacion-3  javascript">
                                         <img src={js} alt="logo" width="24" height="24"/>
                                         <span class="title">JavaScript</span>
                                     </span>
@@ -87,7 +87,7 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per sass">
+                                    <span class="skill-per animacion-4  sass">
                                         <img src={sass} alt="logo" width="24" height="24"/>
                                         <span class="title">Sass</span>
                                     </span>
@@ -95,7 +95,7 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per bootstrap">
+                                    <span class="skill-per animacion-5  bootstrap">
                                         <img src={bootstrap} alt="logo" width="24" height="24"/>
                                         <span class="title">Bootstrap</span>
                                     </span>
@@ -109,7 +109,7 @@ function Intro() {
                         <div class="skills">
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per angular">
+                                    <span class="skill-per animacion-1  angular">
                                         <img src={angular} alt="logo" width="24" height="24"/>
                                         <span class="title">Angular</span>
                                     </span>
@@ -117,7 +117,7 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per react">
+                                    <span class="skill-per animacion-2  react">
                                         <img src={react} alt="logo" width="24" height="24"/>
                                         <span class="title">React</span>
                                     </span>
@@ -125,7 +125,7 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per wordpress">
+                                    <span class="skill-per animacion-3  wordpress">
                                         <img src={wordpress} alt="logo" width="24" height="24"/>
                                         <span class="title">Wordpress</span>
                                     </span>
@@ -133,7 +133,7 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per vtex">
+                                    <span class="skill-per animacion-4 vtex">
                                         <img src={vtex} alt="logo" width="24" height="24"/>
                                         <span class="title">Vtex</span>
                                     </span>
