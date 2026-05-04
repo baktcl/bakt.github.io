@@ -99,4 +99,13 @@
   .proyecto img {
     margin: 0.8rem;
   }
+  .slick-slide {
+    &:hover {
+      background: transparent;
+      animation: none;
+      backdrop-filter: none;
+      transform-style: none;
+      transition: none;
+    }
+  }
 }
