@@ -11,7 +11,6 @@ import figma from "../images/skills/figma-logo.svg";
 import photoshop from "../images/skills/photoshop-logo.svg";
 import illustrator from "../images/skills/illustrator-logo.svg";
 import xd from "../images/skills/adobe-xd-logo.svg";
-import vue from "../images/skills/vue-logo.svg";
 
 
 function Intro() {
