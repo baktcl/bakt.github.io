@@ -135,17 +135,17 @@ function Intro() {
                             */}
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per animacion-4 vtex">
-                                        <img src={vtex} alt="logo" width="24" height="24"/>
-                                        <span class="title">Vtex</span>
+                                    <span class="skill-per animacion-3  wordpress">
+                                        <img src={wordpress} alt="logo" width="24" height="24"/>
+                                        <span class="title">Wordpress</span>
                                     </span>
                                 </div>
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per animacion-3  wordpress">
-                                        <img src={wordpress} alt="logo" width="24" height="24"/>
-                                        <span class="title">Wordpress</span>
+                                    <span class="skill-per animacion-4 vtex">
+                                        <img src={vtex} alt="logo" width="24" height="24"/>
+                                        <span class="title">Vtex</span>
                                     </span>
                                 </div>
                             </div>
