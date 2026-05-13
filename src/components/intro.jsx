@@ -11,6 +11,7 @@ import figma from "../images/skills/figma-logo.svg";
 import photoshop from "../images/skills/photoshop-logo.svg";
 import illustrator from "../images/skills/illustrator-logo.svg";
 import xd from "../images/skills/adobe-xd-logo.svg";
+import vue from "../images/skills/vue-logo.svg";
 
 
 function Intro() {
@@ -89,7 +90,7 @@ function Intro() {
                                 <div class="skill-bar">
                                     <span class="skill-per animacion-4  sass">
                                         <img src={sass} alt="logo" width="24" height="24"/>
-                                        <span class="title">Sass</span>
+                                        <span class="title">SCSS/Sass</span>
                                     </span>
                                 </div>
                             </div>
@@ -125,9 +126,9 @@ function Intro() {
                             </div>
                             <div class="skill-box">
                                 <div class="skill-bar">
-                                    <span class="skill-per animacion-3  wordpress">
-                                        <img src={wordpress} alt="logo" width="24" height="24"/>
-                                        <span class="title">Wordpress</span>
+                                    <span class="skill-per animacion-3 vue">
+                                        <img src={vue} alt="logo" width="24" height="24"/>
+                                        <span class="title">Vue.js</span>
                                     </span>
                                 </div>
                             </div>
@@ -136,6 +137,14 @@ function Intro() {
                                     <span class="skill-per animacion-4 vtex">
                                         <img src={vtex} alt="logo" width="24" height="24"/>
                                         <span class="title">Vtex</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <div class="skill-bar">
+                                    <span class="skill-per animacion-3  wordpress">
+                                        <img src={wordpress} alt="logo" width="24" height="24"/>
+                                        <span class="title">Wordpress</span>
                                     </span>
                                 </div>
                             </div>

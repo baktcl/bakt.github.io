@@ -111,24 +111,24 @@ function Pie() {
                     </div>
                     {estado === "exito" && (
                         <div className="modal-overlay">
-                        <div className="modal exito">
-                            <img src={exito} class="img-fluid" alt="exito" width="80" height="80" />
-                            <h2>¡Mensaje enviado!</h2>
-                            <p>Estamos en contacto</p>
-                            <button onClick={cerrarModal}>Cerrar</button>
-                        </div>
+                            <div className="modal exito">
+                                <img src={exito} class="img-fluid" alt="exito" width="80" height="80" />
+                                <h2>¡Mensaje enviado!</h2>
+                                <p>Estamos en contacto</p>
+                                <button onClick={cerrarModal}>Cerrar</button>
+                            </div>
                         </div>
                     )}
 
                     {/* MODAL ERROR */}
                     {estado === "error" && (
                         <div className="modal-overlay">
-                        <div className="modal error">
-                            <img src={error} class="img-fluid" alt="error" width="80" height="80" />
-                            <h2>Ocurrió un problema</h2>
-                            <p>Inténtalo más tarde</p>
-                            <button onClick={cerrarModal}>Cerrar</button>
-                        </div>
+                            <div className="modal error">
+                                <img src={error} class="img-fluid" alt="error" width="80" height="80" />
+                                <h2>Ocurrió un problema</h2>
+                                <p>Inténtalo más tarde</p>
+                                <button onClick={cerrarModal}>Cerrar</button>
+                            </div>
                         </div>
                     )}
                 </div>
