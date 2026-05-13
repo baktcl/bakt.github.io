@@ -124,6 +124,7 @@ function Intro() {
                                     </span>
                                 </div>
                             </div>
+                            {/*
                             <div class="skill-box">
                                 <div class="skill-bar">
                                     <span class="skill-per animacion-3 vue">
@@ -132,6 +133,7 @@ function Intro() {
                                     </span>
                                 </div>
                             </div>
+                            */}
                             <div class="skill-box">
                                 <div class="skill-bar">
                                     <span class="skill-per animacion-4 vtex">
