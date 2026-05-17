@@ -4,6 +4,8 @@ import baktlogo from "../images/bakt-logo.svg";
 import linearli from "../images/linear-li.svg";
 import linearig from "../images/linear-ig.svg";
 import linearwa from "../images/linear-wa.svg";
+import linearcodepen from "../images/codepen-linear.svg";
+import lineargithub from "../images/github-svgrepo-com.svg";
 
 export default function Hamburguesa() {
   
@@ -56,6 +58,12 @@ export default function Hamburguesa() {
             <hr></hr>
           </li>
           <div class="redes">
+            <a tooltip="Codepen" flow="down" class="social" href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noopener noreferrer">
+              <img src={linearcodepen} alt="Linkedin" />
+            </a> 
+            <a tooltip="Github" flow="down" class="social" href="https://github.com/baktcl/" target="_blank" rel="noopener noreferrer">
+              <img src={lineargithub} alt="Instagram" />
+            </a>
             <a tooltip="Linkedin" flow="down" class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noopener noreferrer">
               <img src={linearli} alt="Linkedin" />
             </a> 

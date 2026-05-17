@@ -44,10 +44,10 @@ function Pie() {
                     <div class="order-1 order-lg-1 col-lg-4 col-md-12 col-12 text-center espacio-pie">
                         <a href="#Perfil">Perfil</a>
                         <a href="#Proyectos">Proyectos</a>
-                        <a href="../Curriculum.pdf" target="_blank">Curriculum</a>
-                        <hr></hr>
-                        <a href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">Linkedin</a>
-                        <a href="https://www.instagram.com/bkampft/" target="_blank" rel="noreferrer">Instagram</a>
+                        <a href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noreferrer">Codepen</a>
+                        <a href="https://github.com/baktcl/" target="_blank" rel="noreferrer">Github</a>
+                        <a href="https://linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">Linkedin</a>
+                        <a href="https://instagram.com/bkampft/" target="_blank" rel="noreferrer">Instagram</a>
                         <a href="https://api.whatsapp.com/send?phone=56962822951" target="_blank" rel="noreferrer">Whatsapp</a>
                     </div>
 

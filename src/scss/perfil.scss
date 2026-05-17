@@ -54,6 +54,11 @@
     text-align: right;
   }
 }
+
+.redes {
+  text-align: left;
+}
+
 @keyframes BottomTotop {
   0% {
     opacity: 0;
@@ -102,6 +107,9 @@
     .about .boton {
       width: 100%!important;
     }
+  }
+  .redes img {
+    opacity: 1;
   }
 }
 

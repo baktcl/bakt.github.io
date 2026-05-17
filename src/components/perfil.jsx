@@ -2,6 +2,8 @@ import bakt from "../images/bakt.svg";
 import instagram from "../images/instagram.svg";
 import linkedin from "../images/linkedin.svg";
 import whatsapp from "../images/whatsapp.svg";
+import codepen from "../images/Codepen-logo.svg";
+import github from "../images/github-logo.svg";
 
 function perfil() {
     return (
@@ -14,7 +16,7 @@ function perfil() {
                             <span class="mr-2 d-inline animated-item-2">Hola, soy</span>
                                 <div class="animated-info">
                                     <h1 class="animated-item">Bryan Köhnenkampf</h1>
-                                    <h2 class="animated-item">Front-end Dev</h2>
+                                    <h2 class="animated-item">Front-end Developer</h2>
                                     <h2 class="animated-item">Diseñador UX/UI</h2>
                                 </div>
                         </div>
@@ -28,6 +30,12 @@ function perfil() {
                         </div>
 
                         <div class="redes">
+                            <a tooltip="Codepen" flow="down" href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noreferrer">
+                                <img src={codepen} class="img-fluid" alt="codepen" />
+                            </a>
+                            <a tooltip="Github" flow="down" href="https://github.com/baktcl/" target="_blank" rel="noreferrer">
+                                <img src={github} class="img-fluid" alt="github" />
+                            </a>
                             <a tooltip="Linkedin" flow="down" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">
                                 <img src={linkedin} class="img-fluid" alt="linkedin" />
                             </a>
