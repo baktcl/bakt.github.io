@@ -30,21 +30,24 @@ function perfil() {
                         </div>
 
                         <div class="redes">
+                            <a tooltip="Linkedin" flow="down" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">
+                                <img src={linkedin} class="img-fluid" alt="linkedin" />
+                            </a>
                             <a tooltip="Codepen" flow="down" href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noreferrer">
                                 <img src={codepen} class="img-fluid" alt="codepen" />
                             </a>
                             <a tooltip="Github" flow="down" href="https://github.com/baktcl/" target="_blank" rel="noreferrer">
                                 <img src={github} class="img-fluid" alt="github" />
                             </a>
-                            <a tooltip="Linkedin" flow="down" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">
-                                <img src={linkedin} class="img-fluid" alt="linkedin" />
-                            </a>
+                            
+                            {/*
                             <a tooltip="Instagram" flow="down" href="https://www.instagram.com/bkampft/" target="_blank" rel="noreferrer">
                                 <img src={instagram} class="img-fluid" alt="instagram" />
                             </a>
                             <a tooltip="Whatsapp" flow="down" href="https://api.whatsapp.com/send?phone=56962822951" target="_blank" rel="noreferrer">
                                 <img src={whatsapp} class="img-fluid" alt="whatsapp" />
                             </a>
+                            */}
                         </div>
                     </div>
                 </div>

@@ -39,7 +39,7 @@ export default function Hamburguesa() {
             <a onClick={() => setOpen(false)} href="#Proyectos">Proyectos</a>
           </li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="../Curriculum.pdf">Curriculum</a>
+            <a onClick={() => setOpen(false)} href="#introduccion">Habilidades</a>
           </li>
           <li>
             <a onClick={() => setOpen(false)} href="#Contacto">Contacto</a>
@@ -58,21 +58,24 @@ export default function Hamburguesa() {
             <hr></hr>
           </li>
           <div class="redes">
+            <a tooltip="Linkedin" flow="down" class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noopener noreferrer">
+              <img src={linearli} alt="Linkedin" />
+            </a> 
             <a tooltip="Codepen" flow="down" class="social" href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noopener noreferrer">
               <img src={linearcodepen} alt="Linkedin" />
             </a> 
             <a tooltip="Github" flow="down" class="social" href="https://github.com/baktcl/" target="_blank" rel="noopener noreferrer">
               <img src={lineargithub} alt="Instagram" />
             </a>
-            <a tooltip="Linkedin" flow="down" class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noopener noreferrer">
-              <img src={linearli} alt="Linkedin" />
-            </a> 
+            
+            {/*
             <a tooltip="Instagram" flow="down" class="social" href="https://www.instagram.com/bkampft/" target="_blank" rel="noopener noreferrer">
               <img src={linearig} alt="Instagram" />
             </a>
             <a tooltip="Whatsapp" flow="down" class="social" href="https://api.whatsapp.com/send?phone=56962822951" target="_blank" rel="noopener noreferrer">
               <img src={linearwa} alt="Whatsapp" />
             </a>
+            */}
           </div>
         </ul>
       </div>
