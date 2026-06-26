@@ -1,7 +1,5 @@
 import bakt from "../images/bakt.svg";
-import instagram from "../images/instagram.svg";
 import linkedin from "../images/linkedin.svg";
-import whatsapp from "../images/whatsapp.svg";
 import codepen from "../images/Codepen-logo.svg";
 import github from "../images/github-logo.svg";
 
