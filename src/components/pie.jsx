@@ -43,8 +43,8 @@ function Pie() {
                 <div class="row"> 
                     <div class="order-1 order-lg-1 col-lg-4 col-md-12 col-12 text-center espacio-pie">
                         <a href="#Perfil">Perfil</a>
-                        <a href="#Proyectos">Proyectos</a>
                         <a href="#introduccion">Habilidades</a>
+                        <a href="#Proyectos">Proyectos</a>
                         <hr class="final"></hr>   
                         <a href="https://linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">Linkedin</a>
                         <a href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noreferrer">Codepen</a>
