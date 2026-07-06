@@ -59,13 +59,12 @@ export default function Hamburguesa() {
             <a tooltip="Linkedin" flow="down" class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noopener noreferrer">
               <img src={linearli} alt="Linkedin" />
             </a> 
-            <a tooltip="Codepen" flow="down" class="social" href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noopener noreferrer">
-              <img src={linearcodepen} alt="Linkedin" />
-            </a> 
             <a tooltip="Github" flow="down" class="social" href="https://github.com/baktcl/" target="_blank" rel="noopener noreferrer">
               <img src={lineargithub} alt="Instagram" />
             </a>
-            
+            <a tooltip="Codepen" flow="down" class="social" href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noopener noreferrer">
+              <img src={linearcodepen} alt="Linkedin" />
+            </a>             
             {/*
             <a tooltip="Instagram" flow="down" class="social" href="https://www.instagram.com/bkampft/" target="_blank" rel="noopener noreferrer">
               <img src={linearig} alt="Instagram" />

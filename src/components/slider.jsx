@@ -24,7 +24,7 @@ import bootstrap from "../images/skills/bootstrap-logo.svg";
 import angular from "../images/skills/angular-logo.svg";
 import wordpress from "../images/skills/logo-wordpress.svg";
 import vtex from "../images/skills/vtex_logo.svg";
-
+import Calendario from "../images/calendario.svg";
 import blank from "../images/url-blank.svg";
 
 export default function SimpleSlider() {
@@ -73,7 +73,11 @@ export default function SimpleSlider() {
     <Slider  {...settings}>
       <div class="proyecto">
         <img src={Guess} alt="logo" width="140"/>
-        <h3>Guess - 2021</h3>
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2021
+        </p>
+        <h3>Guess</h3>
         <p>Hecho en VTEX, asegurando consistencia visual, adaptación a lineamientos de marca a nivel internacional a la marca en Chile.</p>
         <a href="https://www.guess.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
@@ -89,8 +93,12 @@ export default function SimpleSlider() {
       </div>
 
       <div class="proyecto">
-        <img src={Unired} alt="logo" width="140" style={{margin:'0'}} />
-        <h3>Unired - 2024</h3>
+        <img src={Unired} alt="logo" width="140" style={{margin:'1rem 0'}} />
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2024
+        </p>
+        <h3>Unired</h3>
         <p>Prototipado e implementación de interfaces para plataforma de pagos de alto tráfico, priorizando claridad en flujos transaccionales, rendimiento y accesibilidad en entornos Angular.</p>
         <a href="https://www.unired.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
@@ -107,7 +115,12 @@ export default function SimpleSlider() {
 
       <div class="proyecto">
         <img src={Construmart} alt="logo" width="140" />
-        <h3>Construmart - 2021</h3>
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2021
+        </p>
+        <h3>Construmart</h3>
+        
         <p>Prototipado y desarrollo para e-commerce en VTEX, adaptación responsive y mejora de la experiencia de usuario en procesos de búsqueda.</p>
         <a href="https://www.construmart.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
@@ -124,7 +137,11 @@ export default function SimpleSlider() {
 
       <div class="proyecto">
         <img src={Fucoa} alt="logo" width="140"  />
-        <h3>Chile Agrícola - 2020</h3>
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2020
+        </p>
+        <h3>Chile Agrícola</h3>
         <p>Diseño y desarrollo front-end sobre WordPress para plataforma informativa del Ministerio de Agricultura, optimizando arquitectura de contenidos y experiencia de navegación.</p>
         <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
@@ -141,7 +158,11 @@ export default function SimpleSlider() {
 
       <div class="proyecto">
         <img src={Colloky} alt="logo" width="140" />
-        <h3>Colloky - 2021</h3>
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2021
+        </p>
+        <h3>Colloky</h3>
         <p>Hecho en VTEX, traduciendo lineamientos de marca a componentes reutilizables y asegurando coherencia visual en catálogo y checkout.</p>
         <a href="https://www.colloky.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
@@ -157,8 +178,12 @@ export default function SimpleSlider() {
       </div>
 
       <div class="proyecto">
-        <img src={Vitamina} alt="logo" width="140" style={{margin:'0'}} />
-        <h3>Vitamina - 2016</h3>
+        <img src={Vitamina} alt="logo" width="140" style={{margin:'1rem 0'}} />
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2016
+        </p>
+        <h3>Vitamina</h3>
         <p>Diseño y desarrollo del sitio corporativo en WordPress, creando una estructura clara y adaptable que facilitara la navegación y comunicación institucional.</p>
         <a href="https://www.vitamina.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
@@ -173,7 +198,11 @@ export default function SimpleSlider() {
 
       <div class="proyecto">
         <img src={Sakura} alt="logo" width="140" />
-        <h3>Sakura - 2024</h3>
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2024
+        </p>
+        <h3>Sakura</h3>
         <p>Desarrollo de interfaces y componentes en Angular para plataforma comercial, optimizando tiempos de compra y flujos.</p>
         <a href="https://www.sakuraexpress.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
@@ -189,8 +218,12 @@ export default function SimpleSlider() {
       </div>
 
       <div class="proyecto">
-        <img src={Fonasa} alt="logo" width="170" />
-        <h3>Fonasa - 2023</h3>
+        <img src={Fonasa} alt="logo" width="170" style={{padding:'0.5rem'}} />
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2022
+        </p>
+        <h3>Fonasa</h3>
         <p>Plataforma institucional de alto alcance, priorizando accesibilidad, estructura semántica y creación de intranet sobre WordPress.</p>
         <a href="https://nuevo.fonasa.gob.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
@@ -207,7 +240,11 @@ export default function SimpleSlider() {
 
       <div class="proyecto">
         <img src={Capitaria} alt="logo" width="140"  />
-        <h3>Capitaria - 2015</h3>
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2015
+        </p>
+        <h3>Capitaria</h3>
         <p>Diseño y maquetación de landing pages orientadas a conversión, enfocadas en captación de clientes y optimización visual para campañas digitales.</p>
         <a href="https://bakt.cl/Proyectos/Capitaria/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
@@ -221,8 +258,12 @@ export default function SimpleSlider() {
       </div>
 
       <div class="proyecto">
-        <img src={Sercotec} alt="logo" width="140" style={{margin:'0'}} />
-        <h3>Barrios comerciales - 2018</h3>
+        <img src={Sercotec} alt="logo" width="140" style={{margin:'1rem 0'}} />
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2018
+        </p>
+        <h3>Barrios comerciales</h3>
         <p>Plataforma institucional de Sercotec hecha en Wordpress, mejorando usabilidad y acceso a información para pymes a nivel nacional.</p>
         <a href="https://www.sercotec.cl/barrios-comerciales/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
@@ -237,8 +278,12 @@ export default function SimpleSlider() {
       </div>
 
       <div class="proyecto">
-        <img src={Bata} alt="logo" width="140" style={{margin:'0'}} />
-        <h3>Bata - 2021</h3>
+        <img src={Bata} alt="logo" width="140" style={{margin:'1rem 0'}} />
+        <p class="float-right">
+          <img src={Calendario} alt="calendario" width="40" />
+          2021
+        </p>
+        <h3>Bata</h3>
         <p>Entorno VTEX, implementando mejoras visuales y estructurales orientadas a optimizar la experiencia de compra online.</p>
         <a href="https://www.bata.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />

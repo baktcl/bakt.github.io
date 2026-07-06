@@ -47,8 +47,8 @@ function Pie() {
                         <a href="#Proyectos">Proyectos</a>
                         <hr class="final"></hr>   
                         <a href="https://linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">Linkedin</a>
-                        <a href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noreferrer">Codepen</a>
                         <a href="https://github.com/baktcl/" target="_blank" rel="noreferrer">Github</a>
+                        <a href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noreferrer">Codepen</a> 
                         
                         {/*
                         <a href="https://instagram.com/bkampft/" target="_blank" rel="noreferrer">Instagram</a>
