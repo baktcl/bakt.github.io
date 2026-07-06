@@ -18,8 +18,7 @@ function perfil() {
                                     <h2 class="animated-item">Diseñador UX/UI</h2>
                                 </div>
                         </div>
-                        <p>Me dedico al prototipado, maquetación e implementación de interfaces web, 
-                            con más de 10 años de experiencia en proyectos digitales.
+                        <p>Diseñador UX/UI y desarrollador Front-end con más de diez años de experiencia en fintech, retail y organismos públicos desde la investigación hasta el código en producción.
                         </p>
                         
                         <div class="boton-group mt-4">

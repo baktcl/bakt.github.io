@@ -23,6 +23,7 @@
     &.slick-active button:before {
       color: #7090a2;
     }
+    
   }
 
   .slick-prev:before {
@@ -109,3 +110,12 @@
     }
   }
 }
+
+.leyenda {
+    text-align: center;
+    color: #ccc;
+    opacity: 0.8;
+    transition: 0.5s;
+    margin: 2rem 0!important;
+}
+
