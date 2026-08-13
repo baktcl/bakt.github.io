@@ -3,7 +3,7 @@ import linkedin from "../images/linkedin.svg";
 import codepen from "../images/Codepen-logo.svg";
 import github from "../images/github-logo.svg";
 import credly from "../images/credly-logo.svg";
-import dribbble from "../images/dribbble-logo.svg";
+import behance from "../images/behance-logo.svg";
 
 function perfil() {
     return (
@@ -32,8 +32,8 @@ function perfil() {
                             <a tooltip="Linkedin" flow="down" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">
                                 <img src={linkedin} class="img-fluid" alt="linkedin" />
                             </a>
-                            <a tooltip="Dribbble" flow="down" href="https://dribbble.com/baktcl/" target="_blank" rel="noreferrer">
-                                <img src={dribbble} class="img-fluid" alt="dribbble" />
+                            <a tooltip="behance" flow="down" href="https://www.behance.net/bryankhnenkampf" target="_blank" rel="noreferrer">
+                                <img src={behance} class="img-fluid" alt="behance" />
                             </a>
                             <a tooltip="Github" flow="down" href="https://github.com/baktcl/" target="_blank" rel="noreferrer">
                                 <img src={github} class="img-fluid" alt="github" />

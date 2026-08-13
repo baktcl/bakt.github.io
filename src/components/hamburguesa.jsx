@@ -4,7 +4,7 @@ import baktlogo from "../images/bakt-logo.svg";
 import linearli from "../images/linear-li.svg";
 import linearcodepen from "../images/codepen-linear.svg";
 import lineargithub from "../images/github-svgrepo-com.svg";
-import lineardribbble from "../images/dribbble-logo-linear.svg";
+import linearbehance from "../images/behance-logo-linear.svg";
 import linearcredly from "../images/credly-logo-linear.svg";
 
 export default function Hamburguesa() {
@@ -61,8 +61,8 @@ export default function Hamburguesa() {
             <a tooltip="Linkedin" flow="down" class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noopener noreferrer">
               <img src={linearli} alt="Linkedin" />
             </a> 
-            <a tooltip="Dribbble" flow="down" class="social" href="https://dribbble.com/baktcl/" target="_blank" rel="noopener noreferrer">
-              <img src={lineardribbble} alt="Linkedin" />
+            <a tooltip="behance" flow="down" class="social" href="https://www.behance.net/bryankhnenkampf" target="_blank" rel="noopener noreferrer">
+              <img src={linearbehance} alt="Linkedin" />
             </a>   
             <a tooltip="Github" flow="down" class="social" href="https://github.com/baktcl/" target="_blank" rel="noopener noreferrer">
               <img src={lineargithub} alt="Instagram" />
