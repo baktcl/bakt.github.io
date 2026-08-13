@@ -99,7 +99,7 @@ export default function SimpleSlider() {
           2024
         </p>
         <h3>Unired</h3>
-        <p>Prototipado e implementación de interfaces para plataforma de pagos de alto tráfico, priorizando claridad en flujos transaccionales, rendimiento y accesibilidad en entornos Angular.</p>
+        <p>Plataforma de alto tráfico. Mi trabajo es cubrir el espectro UI completo — diseño visual, motion e implementar el código en Angular. </p>
         <a href="https://www.unired.cl/" rel="noreferrer" target="_blank" class="url" >
           <img src={blank} width="45" alt="url" />
           Ir a la web

@@ -2,6 +2,8 @@ import bakt from "../images/bakt.svg";
 import linkedin from "../images/linkedin.svg";
 import codepen from "../images/Codepen-logo.svg";
 import github from "../images/github-logo.svg";
+import credly from "../images/credly-logo.svg";
+import dribbble from "../images/dribbble-logo.svg";
 
 function perfil() {
     return (
@@ -30,12 +32,19 @@ function perfil() {
                             <a tooltip="Linkedin" flow="down" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noreferrer">
                                 <img src={linkedin} class="img-fluid" alt="linkedin" />
                             </a>
+                            <a tooltip="Dribbble" flow="down" href="https://dribbble.com/baktcl/" target="_blank" rel="noreferrer">
+                                <img src={dribbble} class="img-fluid" alt="dribbble" />
+                            </a>
                             <a tooltip="Github" flow="down" href="https://github.com/baktcl/" target="_blank" rel="noreferrer">
                                 <img src={github} class="img-fluid" alt="github" />
                             </a>
                             <a tooltip="Codepen" flow="down" href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noreferrer">
                                 <img src={codepen} class="img-fluid" alt="codepen" />
                             </a>
+                            <a tooltip="Credly" flow="down" href="https://www.credly.com/users/bryan-kohnenkampf" target="_blank" rel="noreferrer">
+                                <img src={credly} class="img-fluid" alt="credly" />
+                            </a>
+                           
                             {/*
                             <a tooltip="Instagram" flow="down" href="https://www.instagram.com/bkampft/" target="_blank" rel="noreferrer">
                                 <img src={instagram} class="img-fluid" alt="instagram" />

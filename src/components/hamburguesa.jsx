@@ -4,6 +4,8 @@ import baktlogo from "../images/bakt-logo.svg";
 import linearli from "../images/linear-li.svg";
 import linearcodepen from "../images/codepen-linear.svg";
 import lineargithub from "../images/github-svgrepo-com.svg";
+import lineardribbble from "../images/dribbble-logo-linear.svg";
+import linearcredly from "../images/credly-logo-linear.svg";
 
 export default function Hamburguesa() {
   
@@ -59,12 +61,18 @@ export default function Hamburguesa() {
             <a tooltip="Linkedin" flow="down" class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noopener noreferrer">
               <img src={linearli} alt="Linkedin" />
             </a> 
+            <a tooltip="Dribbble" flow="down" class="social" href="https://dribbble.com/baktcl/" target="_blank" rel="noopener noreferrer">
+              <img src={lineardribbble} alt="Linkedin" />
+            </a>   
             <a tooltip="Github" flow="down" class="social" href="https://github.com/baktcl/" target="_blank" rel="noopener noreferrer">
               <img src={lineargithub} alt="Instagram" />
             </a>
             <a tooltip="Codepen" flow="down" class="social" href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noopener noreferrer">
               <img src={linearcodepen} alt="Linkedin" />
-            </a>             
+            </a>                   
+            <a tooltip="Credly" flow="down" class="social" href="https://www.credly.com/users/bryan-kohnenkampf" target="_blank" rel="noopener noreferrer">
+              <img src={linearcredly} alt="Credly" />
+            </a>         
             {/*
             <a tooltip="Instagram" flow="down" class="social" href="https://www.instagram.com/bkampft/" target="_blank" rel="noopener noreferrer">
               <img src={linearig} alt="Instagram" />

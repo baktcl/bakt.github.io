@@ -80,11 +80,12 @@
 }
 
 .panel [tooltip][flow^="down"]::after {
-    top: calc(100% + 1.37rem);
+    top: calc(100% + 1rem);
     left: 55%;
 }
 .panel [tooltip][flow^="down"]::before {
     left: 55%;
+    top: calc(100% + 0.7rem)!important;
 }
 
 /* FLOW: DOWN */
