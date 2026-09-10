@@ -5,7 +5,6 @@ import linearli from "../images/linear-li.svg";
 import linearcodepen from "../images/codepen-linear.svg";
 import lineargithub from "../images/github-svgrepo-com.svg";
 import linearbehance from "../images/behance-logo-linear.svg";
-import linearcredly from "../images/credly-logo-linear.svg";
 
 export default function Hamburguesa() {
   
@@ -69,11 +68,11 @@ export default function Hamburguesa() {
             </a>
             <a tooltip="Codepen" flow="down" class="social" href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noopener noreferrer">
               <img src={linearcodepen} alt="Linkedin" />
-            </a>                   
+            </a>                           
+            {/*
             <a tooltip="Credly" flow="down" class="social" href="https://www.credly.com/users/bryan-kohnenkampf" target="_blank" rel="noopener noreferrer">
               <img src={linearcredly} alt="Credly" />
-            </a>         
-            {/*
+            </a> 
             <a tooltip="Instagram" flow="down" class="social" href="https://www.instagram.com/bkampft/" target="_blank" rel="noopener noreferrer">
               <img src={linearig} alt="Instagram" />
             </a>
