@@ -23,7 +23,7 @@ function perfil() {
                         </p>
                         
                         <div class="boton-group mt-4">
-                            <a href="#Proyectos" class=" boton boton-bg boton-link">Proyectos</a>
+                            <a href="#Proyectos" class=" boton boton-bg boton-link">Ver proyectos</a>
                             {/*<a href="#Contacto" class=" mr-lg-2 boton"> Contacto</a> */}
                         </div>
 

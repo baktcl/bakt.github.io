@@ -6,7 +6,6 @@ import Divisor from "./components/divisor.jsx";
 import Proyectos from "./components/proyectos.jsx";
 import Pie from "./components/pie.jsx";
 import Clientes from "./components/clientes.jsx";
-import Creditos from "./components/creditos.jsx";
 
 function Home() {
   return (
@@ -24,7 +23,6 @@ function Home() {
         <Pie />
       </section>
       <Clientes />
-      <Creditos />
     </>
   );
 }

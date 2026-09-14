@@ -261,7 +261,7 @@ export default function SimpleSlider() {
         <img src={Sercotec} alt="logo" width="140" style={{margin:'1rem 0'}} />
         <p class="float-right">
           <img src={Calendario} alt="calendario" width="40" />
-          2018
+          2019
         </p>
         <h3>Barrios comerciales</h3>
         <p>Plataforma institucional de Sercotec hecha en Wordpress, mejorando usabilidad y acceso a información para pymes a nivel nacional.</p>

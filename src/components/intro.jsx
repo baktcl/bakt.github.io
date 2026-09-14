@@ -12,6 +12,10 @@ import photoshop from "../images/skills/photoshop-logo.svg";
 import illustrator from "../images/skills/illustrator-logo.svg";
 import xd from "../images/skills/adobe-xd-logo.svg";
 
+import diseno from "../images/diseño-icon.svg";
+import codigo from "../images/codigo-icon.svg";
+import implementacion from "../images/implementación-icon.svg";
+
 
 function Intro() {
     return (
@@ -19,6 +23,7 @@ function Intro() {
             <div class="container">
                 <div class="row cajas g-1"> 
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
+                        <img src={diseno} alt="logo" width="100" height="100" class="img-intro"/>
                         <h2>Prototipado</h2>
                         <p>Diseño de interfaces, creando prototipos interactivos orientados a la experiencia de usuario.</p>
                         <div class="skills">
@@ -58,6 +63,7 @@ function Intro() {
 
                     </div>
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
+                        <img src={codigo} alt="logo" width="100" height="100" class="img-intro"/>
                         <h2>Maquetación</h2>
                         <p>Traducción de prototipos a código responsivo y accesible, manteniendo fidelidad al diseño.</p>
                         <div class="skills">
@@ -104,6 +110,7 @@ function Intro() {
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
+                        <img src={implementacion} alt="logo" width="100" height="100" class="img-intro"/>
                         <h2>Implementación</h2>
                         <p>Desarrollo de lógica front-end utilizando frameworks como React, Angular, entre otros.</p>
                         <div class="skills">
