@@ -15,7 +15,7 @@ function perfil() {
                             <span class="mr-2 d-inline animated-item-2">Hola, soy</span>
                                 <div class="animated-info">
                                     <h1 class="animated-item">Bryan Köhnenkampf</h1>
-                                    <h2 class="animated-item">Front-end Developer</h2>
+                                    <h2 class="animated-item">Desarrollador Front-end</h2>
                                     <h2 class="animated-item">Diseñador UX/UI</h2>
                                 </div>
                         </div>

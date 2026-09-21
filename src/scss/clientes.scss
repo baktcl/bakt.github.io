@@ -1,7 +1,7 @@
 body {
 	align-items: center;
 	justify-content: center;
-	background: #181818;
+	background: #1A2026;
 }
 
 $animationSpeed: 50s;
@@ -22,7 +22,7 @@ $animationSpeed: 50s;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	background: #181818;
+	background: #1A2026;
 	
 	.slide-track {
 		animation: scroll $animationSpeed linear infinite;

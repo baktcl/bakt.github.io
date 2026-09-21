@@ -1,20 +1,7 @@
-import html from "../images/skills/html5-logo.svg";
-import css from "../images/skills/css3-logo.svg";
-import sass from "../images/skills/logo-sass.svg";
-import js from "../images/skills/javascript-logo.svg";
-import bootstrap from "../images/skills/bootstrap-logo.svg";
-import angular from "../images/skills/angular-logo.svg";
-import wordpress from "../images/skills/logo-wordpress.svg";
-import vtex from "../images/skills/vtex_logo.svg";
-import react from "../images/skills/logo-react.svg";
-import figma from "../images/skills/figma-logo.svg";
-import photoshop from "../images/skills/photoshop-logo.svg";
-import illustrator from "../images/skills/illustrator-logo.svg";
-import xd from "../images/skills/adobe-xd-logo.svg";
-
-import diseno from "../images/diseño-icon.svg";
-import codigo from "../images/codigo-icon.svg";
-import implementacion from "../images/implementación-icon.svg";
+import entender from "../images/entender.svg";
+import diseñar from "../images/disenar.svg";
+import construir from "../images/construir.svg";
+import implementar from "../images/implementar.svg";
 
 
 function Intro() {
@@ -23,140 +10,28 @@ function Intro() {
             <div class="container">
                 <div class="row cajas g-1"> 
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
-                        <img src={diseno} alt="logo" width="100" height="100" class="img-intro"/>
-                        <h2>Prototipado</h2>
-                        <p>Diseño de interfaces, creando prototipos interactivos orientados a la experiencia de usuario.</p>
-                        <div class="skills">
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-1  figma">
-                                        <img src={figma} alt="logo" width="24" height="24"/>
-                                        <span class="title">Figma</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-2  xd">
-                                        <img src={xd} alt="logo" width="24" height="24"/>
-                                        <span class="title">Adobe Xd</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-3  photoshop">
-                                        <img src={photoshop} alt="logo" width="24" height="24"/>
-                                        <span class="title">Adobe Photoshop</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-4 illustrator">
-                                        <img src={illustrator} alt="logo" width="24" height="24"/>
-                                        <span class="title">Adobe Illustrator</span>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
+                        <img src={entender} alt="logo" width="70" height="70" class="img-intro"/>
+                        <h2>Entender</h2>
+                        <span>UX · Investigación</span>
+                        <p>Analizo el contexto, usuarios y objetivos del negocio para definir el problema.</p>
                     </div>
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
-                        <img src={codigo} alt="logo" width="100" height="100" class="img-intro"/>
-                        <h2>Maquetación</h2>
-                        <p>Traducción de prototipos a código responsivo y accesible, manteniendo fidelidad al diseño.</p>
-                        <div class="skills">
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-1  html">
-                                        <img src={html} alt="logo" width="24" height="24"/>
-                                        <span class="title">HTML5</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-2  css">
-                                        <img src={css} alt="logo" width="24" height="24"/>
-                                        <span class="title">CSS3</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-3  javascript">
-                                        <img src={js} alt="logo" width="24" height="24"/>
-                                        <span class="title">JavaScript</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-4  sass">
-                                        <img src={sass} alt="logo" width="24" height="24"/>
-                                        <span class="title">SCSS/Sass</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-5  bootstrap">
-                                        <img src={bootstrap} alt="logo" width="24" height="24"/>
-                                        <span class="title">Bootstrap</span>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
+                        <img src={diseñar} alt="logo" width="70" height="70" class="img-intro"/>
+                        <h2>Diseñar</h2>
+                        <span>UI · Prototipado</span>
+                        <p>Creo flujos, wireframes y diseños visuales que comunican y validan la experiencia.</p>
                     </div>
                     <div class="col-lg-4 col-md-12 col-12 text-center caja">
-                        <img src={implementacion} alt="logo" width="100" height="100" class="img-intro"/>
-                        <h2>Implementación</h2>
+                        <img src={construir} alt="logo" width="70" height="70" class="img-intro"/>
+                        <h2>Construir</h2>
+                        <span>Front-end · Maquetación</span>
+                        <p>Transformo el diseño en interfaces funcionales con tecnologías web modernas.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12 text-center caja">
+                        <img src={implementar} alt="logo" width="70" height="70" class="img-intro"/>
+                        <h2>Implementar</h2>
+                        <span>Desarrollo · Despliegue</span>
                         <p>Desarrollo de lógica front-end utilizando frameworks como React, Angular, entre otros.</p>
-                        <div class="skills">
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-1  angular">
-                                        <img src={angular} alt="logo" width="24" height="24"/>
-                                        <span class="title">Angular</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-2  react">
-                                        <img src={react} alt="logo" width="24" height="24"/>
-                                        <span class="title">React</span>
-                                    </span>
-                                </div>
-                            </div>
-                            {/*
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-3 vue">
-                                        <img src={vue} alt="logo" width="24" height="24"/>
-                                        <span class="title">Vue.js</span>
-                                    </span>
-                                </div>
-                            </div>
-                            */}
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-3  wordpress">
-                                        <img src={wordpress} alt="logo" width="24" height="24"/>
-                                        <span class="title">Wordpress</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <div class="skill-bar">
-                                    <span class="skill-per animacion-4 vtex">
-                                        <img src={vtex} alt="logo" width="24" height="24"/>
-                                        <span class="title">Vtex</span>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

@@ -1,10 +1,10 @@
 .proyecto {
   padding: 1.7rem 1rem 1rem 1rem!important;
-  background: linear-gradient(to bottom, #232323, #181818);
+  background: linear-gradient(to bottom, #212830, #1A2026);
   border-radius: 15px;
   opacity: 1;
   &:hover {
-    background: #222;
+    background: #212830;
   }
   h2, p, img, button {
     margin: 1rem;
@@ -12,7 +12,7 @@
 }
 
 .proyectos {
-  background-color: #181818;
+  background-color: #1A2026;
   color: #f0f0f0;
 
   .slick-dots li {
@@ -66,10 +66,10 @@
 
 .slick-slide {
   padding: 1px;
-  background: #181818;
+  background: #1A2026;
   border-radius: 15px;
   &:hover {
-    background: linear-gradient(var(--gradient-angle), rgb(24 24 24), rgb(255 255 255),  rgb(24 24 24));
+    background: linear-gradient(var(--gradient-angle), #1A2026, rgb(255 255 255), #1A2026);
     animation: brillo 10s linear 0s infinite normal forwards;
     backdrop-filter: blur(50px);
     transform-style: preserve-3d;
@@ -109,6 +109,11 @@
       backdrop-filter: none;
       transform-style: none;
       transition: none;
+    }
+  }
+  .proyecto {
+    &:hover {
+      background: linear-gradient(to bottom, #212830, #1A2026);
     }
   }
 }
