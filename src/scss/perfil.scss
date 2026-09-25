@@ -1,7 +1,7 @@
 .about {
   .animated {
     position: relative;
-    margin: 15px 0;
+    margin: 5px 0;
   }
 
   .animated-info {
@@ -44,7 +44,17 @@
   }
 
   .about-text {
-    
+    .info {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #8f8f8f;
+      font-family: "Maven Pro", sans-serif;
+      letter-spacing: 0.5px;
+      text-align: left;
+      display: block;
+      margin-bottom: 5px;
+    }
   }
 
   .about-image {

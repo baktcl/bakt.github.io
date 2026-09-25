@@ -19,12 +19,13 @@ function perfil() {
                                     <h2 class="animated-item">Diseñador UX/UI</h2>
                                 </div>
                         </div>
+                        <span class="info">Diseño y construyo interfaces</span>
                         <p>Diseñador UX/UI y desarrollador Front-end con más de diez años de experiencia en fintech, retail y organismos públicos desde la investigación hasta el código en producción.
                         </p>
                         
                         <div class="boton-group mt-4">
                             <a href="#Proyectos" class=" boton boton-bg boton-link">Ver proyectos</a>
-                            {/*<a href="#Contacto" class=" mr-lg-2 boton"> Contacto</a> */}
+                            <a href="/CV_Bryan_Kohnenkampf.pdf" class=" mr-lg-2 boton" target="_blank" rel="noreferrer"> Descargar CV</a>
                         </div>
 
                         <div class="redes">

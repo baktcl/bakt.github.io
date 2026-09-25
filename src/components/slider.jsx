@@ -79,8 +79,8 @@ export default function SimpleSlider() {
         </p>
         <h3>Guess</h3>
         <p>Hecho en VTEX, asegurando consistencia visual, adaptación a lineamientos de marca a nivel internacional a la marca en Chile.</p>
-        <a href="https://www.guess.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://www.guess.cl/" rel="noreferrer" target="_blank" class="boton" >
+ 
           Ir a la web
         </a>
         <div class="skills">
@@ -100,9 +100,12 @@ export default function SimpleSlider() {
         </p>
         <h3>Unired</h3>
         <p>Plataforma de alto tráfico. Mi trabajo fue cubrir el espectro UI completo — diseño visual, motion e implementar el código en Angular. </p>
-        <a href="https://www.unired.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://www.unired.cl/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
+        </a>
+        <a href="https://www.behance.net/gallery/254212453/Unired-Rediseno-home" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="45" alt="url" />
+          Ver Prototipo
         </a>
         <div class="skills">
             <img tooltip="Html5" flow="top" src={html} alt="logo" width="33" height="33"/>
@@ -122,10 +125,19 @@ export default function SimpleSlider() {
         <h3>Construmart</h3>
         
         <p>Prototipado y desarrollo para e-commerce en VTEX, adaptación responsive y mejora de la experiencia de usuario en procesos de búsqueda.</p>
-        <a href="https://www.construmart.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://www.construmart.cl/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
         </a>
+        <div class="d-flex">
+          <a href="https://xd.adobe.com/view/8e874a79-60f0-4545-b72b-cdb1c2e1aaea-dbd4/" rel="noreferrer" target="_blank" class="url" >
+            <img src={blank} width="45" alt="url" />
+            Ver Wireframe
+          </a>
+          <a href="https://xd.adobe.com/view/05363f6d-c079-4bb9-8d92-04b374105b76-5065/" rel="noreferrer" target="_blank" class="url" >
+            <img src={blank} width="45" alt="url" />
+            Ver Prototipo
+          </a>
+        </div>
         <div class="skills">
             <img src={html} alt="logo" width="33" height="33"/>
             <img src={sass} alt="logo" width="33" height="33"/>
@@ -143,8 +155,7 @@ export default function SimpleSlider() {
         </p>
         <h3>Chile Agrícola</h3>
         <p>Diseño y desarrollo front-end sobre WordPress para plataforma informativa del Ministerio de Agricultura, optimizando arquitectura de contenidos y experiencia de navegación.</p>
-        <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
         </a>
         <div class="skills">
@@ -164,8 +175,7 @@ export default function SimpleSlider() {
         </p>
         <h3>Colloky</h3>
         <p>Hecho en VTEX, traduciendo lineamientos de marca a componentes reutilizables y asegurando coherencia visual en catálogo y checkout.</p>
-        <a href="https://www.colloky.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://www.colloky.cl/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
         </a>
         <div class="skills">
@@ -185,8 +195,7 @@ export default function SimpleSlider() {
         </p>
         <h3>Vitamina</h3>
         <p>Diseño y desarrollo del sitio corporativo en WordPress, creando una estructura clara y adaptable que facilitara la navegación y comunicación institucional.</p>
-        <a href="https://www.vitamina.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://www.vitamina.cl/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
         </a>
         <div class="skills">
@@ -204,9 +213,12 @@ export default function SimpleSlider() {
         </p>
         <h3>Sakura</h3>
         <p>Desarrollo de interfaces y componentes en Angular para plataforma comercial, optimizando tiempos de compra y flujos.</p>
-        <a href="https://www.sakuraexpress.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://www.sakuraexpress.cl/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
+        </a>
+        <a href="https://www.behance.net/gallery/254212071/Sakura-Pedidos" rel="noreferrer" target="_blank" class="url" >
+          <img src={blank} width="45" alt="url" />
+          Ver Prototipo
         </a>
         <div class="skills">
             <img src={html} alt="logo" width="33" height="33"/>
@@ -225,8 +237,7 @@ export default function SimpleSlider() {
         </p>
         <h3>Fonasa</h3>
         <p>Plataforma institucional de alto alcance, priorizando accesibilidad, estructura semántica y creación de intranet sobre WordPress.</p>
-        <a href="https://nuevo.fonasa.gob.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://nuevo.fonasa.gob.cl/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
         </a>
         <div class="skills">
@@ -246,8 +257,7 @@ export default function SimpleSlider() {
         </p>
         <h3>Capitaria</h3>
         <p>Diseño y maquetación de landing pages orientadas a conversión, enfocadas en captación de clientes y optimización visual para campañas digitales.</p>
-        <a href="https://bakt.cl/Proyectos/Capitaria/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://bakt.cl/Proyectos/Capitaria/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la landing
         </a>
         <div class="skills">
@@ -265,8 +275,7 @@ export default function SimpleSlider() {
         </p>
         <h3>Barrios comerciales</h3>
         <p>Plataforma institucional de Sercotec hecha en Wordpress, mejorando usabilidad y acceso a información para pymes a nivel nacional.</p>
-        <a href="https://www.sercotec.cl/barrios-comerciales/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://www.sercotec.cl/barrios-comerciales/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
         </a>
         <div class="skills">
@@ -285,8 +294,7 @@ export default function SimpleSlider() {
         </p>
         <h3>Bata</h3>
         <p>Entorno VTEX, implementando mejoras visuales y estructurales orientadas a optimizar la experiencia de compra online.</p>
-        <a href="https://www.bata.cl/" rel="noreferrer" target="_blank" class="url" >
-          <img src={blank} width="45" alt="url" />
+        <a href="https://www.bata.cl/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
         </a>
         <div class="skills">

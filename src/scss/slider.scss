@@ -32,10 +32,14 @@
 			max-width: 30px;
 		}
 	}
+	.boton {
+    	margin: 1rem;
+	}
+
 	.url {
-		font-family: "Roboto Condensed", sans-serif;
+		font-family: 'Outfit', sans-serif;
 		letter-spacing: 0.5px;
-		font-size: 1.5rem;
+		font-size: 1rem;
 		color: #7088a0;
 		align-items: center;
 		display: flex;
@@ -43,8 +47,11 @@
 		text-transform: uppercase;
 		font-weight: bold;
 		transition: 0.5s;
+		margin: 0.7rem;
 		img {
 			transition: 0.5s;
+			max-width: 30px;
+			margin: 0.2rem;
 		}
 		&:hover {
             color: #f0f0f0 !important;
@@ -111,3 +118,10 @@
   gap: 1rem;
 }
 
+@media (min-width: 320px) and (max-width: 768px) { 
+	.proyecto {
+		.boton {
+			width: 90%;
+		}
+	}
+}

@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import '../scss/hamburguesa.scss';
 import baktlogo from "../images/bakt-logo.svg";
-import linearli from "../images/linear-li.svg";
-import linearcodepen from "../images/codepen-linear.svg";
-import lineargithub from "../images/github-svgrepo-com.svg";
-import linearbehance from "../images/behance-logo-linear.svg";
+
 
 export default function Hamburguesa() {
   
@@ -56,31 +53,7 @@ export default function Hamburguesa() {
           <li>
             <hr></hr>
           </li>
-          <div class="redes">
-            <a tooltip="Linkedin" flow="down" class="social" href="https://www.linkedin.com/in/bryan-k%C3%B6hnenkampf/" target="_blank" rel="noopener noreferrer">
-              <img src={linearli} alt="Linkedin" />
-            </a> 
-            <a tooltip="behance" flow="down" class="social" href="https://www.behance.net/bryankhnenkampf" target="_blank" rel="noopener noreferrer">
-              <img src={linearbehance} alt="Linkedin" />
-            </a>   
-            <a tooltip="Github" flow="down" class="social" href="https://github.com/baktcl/" target="_blank" rel="noopener noreferrer">
-              <img src={lineargithub} alt="Instagram" />
-            </a>
-            <a tooltip="Codepen" flow="down" class="social" href="https://codepen.io/bryan-k-hnenkampf/" target="_blank" rel="noopener noreferrer">
-              <img src={linearcodepen} alt="Linkedin" />
-            </a>                           
-            {/*
-            <a tooltip="Credly" flow="down" class="social" href="https://www.credly.com/users/bryan-kohnenkampf" target="_blank" rel="noopener noreferrer">
-              <img src={linearcredly} alt="Credly" />
-            </a> 
-            <a tooltip="Instagram" flow="down" class="social" href="https://www.instagram.com/bkampft/" target="_blank" rel="noopener noreferrer">
-              <img src={linearig} alt="Instagram" />
-            </a>
-            <a tooltip="Whatsapp" flow="down" class="social" href="https://api.whatsapp.com/send?phone=56962822951" target="_blank" rel="noopener noreferrer">
-              <img src={linearwa} alt="Whatsapp" />
-            </a>
-            */}
-          </div>
+          <a href="/CV_Bryan_Kohnenkampf.pdf" class=" mr-lg-2 boton" target="_blank" rel="noreferrer"> Descargar CV</a>
         </ul>
       </div>
     </div>
