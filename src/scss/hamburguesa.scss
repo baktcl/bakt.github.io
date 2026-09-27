@@ -50,6 +50,15 @@
     box-shadow: none;
     visibility: hidden;
     transition: opacity 0.35s ease;
+    .boton {
+      margin: 1rem;
+      width: 100%;
+      padding: 14px 15px;
+      color: #7088a0;
+      &:hover {
+        color: white;
+      }
+    }
 }
 
 .panel.open {
