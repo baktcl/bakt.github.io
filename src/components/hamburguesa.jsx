@@ -33,17 +33,17 @@ export default function Hamburguesa() {
           </li>
           <li>
             <a onClick={() => setOpen(false)} href="#Perfil">
-              <img class="icon-hamburguesa" src={perfil} width="30" height="25" alt="bakt.cl" />
+              <img class="icon-hamburguesa" src={perfil} width="25" height="23" alt="bakt.cl" />
               Perfil</a>
           </li>
           <li>
             <a onClick={() => setOpen(false)} href="#Proyectos">
-              <img class="icon-hamburguesa" src={proyectos} width="30" height="30" alt="bakt.cl" />
+              <img class="icon-hamburguesa" src={proyectos} width="25" height="25" alt="bakt.cl" />
               Proyectos</a>
           </li>
           <li>
             <a onClick={() => setOpen(false)} href="#Contacto">
-              <img class="icon-hamburguesa" src={contacto} width="30" height="30" alt="bakt.cl" />
+              <img class="icon-hamburguesa" src={contacto} width="25" height="25" alt="bakt.cl" />
               Contacto</a>
           </li>
           

@@ -78,6 +78,7 @@ export default function SimpleSlider() {
           2021
         </p>
         <h3>Guess</h3>
+
         <p>Hecho en VTEX, asegurando consistencia visual, adaptación a lineamientos de marca a nivel internacional a la marca en Chile.</p>
         <a href="https://www.guess.cl/" rel="noreferrer" target="_blank" class="boton" >
  
