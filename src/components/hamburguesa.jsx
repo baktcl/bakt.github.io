@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import '../scss/hamburguesa.scss';
 import baktlogo from "../images/bakt-logo.svg";
 
+import perfil from "../images/icon-perfil.svg";
+import proyectos from "../images/icon-proyectos.svg";
+import contacto from "../images/icon-contacto.svg";
 
 export default function Hamburguesa() {
   
@@ -29,13 +32,19 @@ export default function Hamburguesa() {
             <hr></hr>
           </li>
           <li>
-            <a onClick={() => setOpen(false)} href="#Perfil">Perfil</a>
+            <a onClick={() => setOpen(false)} href="#Perfil">
+              <img class="icon-hamburguesa" src={perfil} width="30" height="25" alt="bakt.cl" />
+              Perfil</a>
           </li>
           <li>
-            <a onClick={() => setOpen(false)} href="#Proyectos">Proyectos</a>
+            <a onClick={() => setOpen(false)} href="#Proyectos">
+              <img class="icon-hamburguesa" src={proyectos} width="30" height="30" alt="bakt.cl" />
+              Proyectos</a>
           </li>
           <li>
-            <a onClick={() => setOpen(false)} href="#Contacto">Contacto</a>
+            <a onClick={() => setOpen(false)} href="#Contacto">
+              <img class="icon-hamburguesa" src={contacto} width="30" height="30" alt="bakt.cl" />
+              Contacto</a>
           </li>
           
           {/*
