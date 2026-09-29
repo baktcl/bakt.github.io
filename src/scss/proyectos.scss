@@ -1,6 +1,6 @@
 .proyecto {
   padding: 1.7rem 1rem 1rem 1rem!important;
-  background: linear-gradient(to bottom, #212830, #1A2026);
+  background: #212830;
   border-radius: 15px;
   opacity: 1;
   &:hover {
@@ -113,7 +113,7 @@
   }
   .proyecto {
     &:hover {
-      background: linear-gradient(to bottom, #212830, #1A2026);
+      background: #212830;
     }
   }
 }

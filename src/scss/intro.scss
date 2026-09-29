@@ -33,14 +33,15 @@
             padding:2rem 1rem 0 0;
             //filter: grayscale(100%);
             transition: 0.3s;
-            background: linear-gradient(to bottom, white, transparent);
+            background: white;
             border-radius: 15px;
             padding: 2rem 1.5rem;
             width: 100%;
             &:hover {
                 //filter: grayscale(0%);
                 transition: 0.3s;
-                background: linear-gradient(to bottom, white, white);
+                background: white;
+                box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
             }
             .img-intro { 
                 padding-bottom: 1rem;
@@ -59,6 +60,9 @@
                 //filter: grayscale(0%);
                 transition: 0.3s;
                 margin: 0;
+                &:hover{
+                    box-shadow: none;
+                }
             }
         }
     }
@@ -68,7 +72,7 @@
     #introduccion {
         .cajas {
             .caja:hover {
-                background: linear-gradient(to bottom, white, transparent);
+                background: white;
             }
         }
     }
