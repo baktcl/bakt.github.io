@@ -134,7 +134,7 @@ export default function SimpleSlider() {
             <img src={blank} width="45" alt="url" />
             Ver Wireframe
           </a>
-          <a href="https://xd.adobe.com/view/05363f6d-c079-4bb9-8d92-04b374105b76-5065/" rel="noreferrer" target="_blank" class="url" >
+          <a href="https://www.behance.net/gallery/254211167/Construmart-Flujo-compra-y-pago" rel="noreferrer" target="_blank" class="url" >
             <img src={blank} width="45" alt="url" />
             Ver Prototipo
           </a>
