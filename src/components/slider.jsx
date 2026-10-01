@@ -10,7 +10,7 @@ import Capitaria from "../images/logos/logo-capitaria.png";
 import Fucoa from "../images/logos/MINAGRI_FUCOA_RGB_blanco.png";
 import Unired from "../images/logos/unired-seeklogo.svg";
 import Vitamina from "../images/logos/vitamina_logo.svg";
-import Sercotec from "../images/logos/barrios-comerciales-sercotec2.png";
+import Sercotec from "../images/logos/Logo_Sercotec.svg";
 import Construmart from "../images/logos/icon-construmart-vertical-colors Large.png";
 import Bata from "../images/logos/logo-Bata.svg";
 import Fonasa from "../images/logos/fonasa-1-1 Large.png";
@@ -159,6 +159,16 @@ export default function SimpleSlider() {
         <a href="https://www.chileagricola.cl/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
         </a>
+        <div class="d-flex">
+          <a href="/proyectos/Boceto-chile-agricola.jpg" rel="noreferrer" target="_blank" class="url" >
+            <img src={blank} width="45" alt="url" />
+            Ver Boceto
+          </a>
+          <a href="https://www.behance.net/gallery/256492127/Prototipo-Chile-Agricola" rel="noreferrer" target="_blank" class="url" >
+            <img src={blank} width="45" alt="url" />
+            Ver Prototipo
+          </a>
+        </div>
         <div class="skills">
             <img src={html} alt="logo" width="33" height="33"/>
             <img src={css} alt="logo" width="33" height="33"/>
@@ -274,9 +284,9 @@ export default function SimpleSlider() {
           <img src={Calendario} alt="calendario" width="40" />
           2019
         </p>
-        <h3>Barrios comerciales</h3>
+        <h3>Sercotec</h3>
         <p>Plataforma institucional de Sercotec hecha en Wordpress, mejorando usabilidad y acceso a información para pymes a nivel nacional.</p>
-        <a href="https://www.sercotec.cl/barrios-comerciales/" rel="noreferrer" target="_blank" class="boton" >
+        <a href="https://www.sercotec.cl/" rel="noreferrer" target="_blank" class="boton" >
           Ir a la web
         </a>
         <div class="skills">
