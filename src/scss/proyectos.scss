@@ -14,7 +14,9 @@
 .proyectos {
   background-color: #1A2026;
   color: #f0f0f0;
-
+  .d-flex {
+    height: auto;
+  }
   .slick-dots li {
     button:before {
       color: #f0f0f0;
@@ -97,7 +99,7 @@
 
 @media (min-width: 320px) and (max-width: 1024px) {
   .slick-slide {
-    margin-left: 10px;
+    margin-left: 4px;
   }
   .proyecto img {
     margin: 0.8rem;

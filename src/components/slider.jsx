@@ -85,11 +85,22 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
+          <div class="skill html">
             <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
+            <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill sass">
             <img src={sass} alt="logo" width="33" height="33"/>
-            <img src={js} alt="logo" width="33" height="33"/>
-            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Sass</div>
+          </div>
+          <div class="skill vtex">
             <img src={vtex} alt="logo" width="33" height="33"/>
+            <div class="tittle">Vtex</div>
+          </div>
         </div>
       </div>
 
@@ -109,11 +120,30 @@ export default function SimpleSlider() {
           Ver Prototipo
         </a>
         <div class="skills">
-            <img tooltip="Html5" flow="top" src={html} alt="logo" width="33" height="33"/>
-            <img tooltip="Css3" flow="top" src={css} alt="logo" width="33" height="33"/>
-            <img tooltip="Javascript" flow="top" src={js} alt="logo" width="33" height="33"/>
-            <img tooltip="Bootstrap" flow="top" src={bootstrap} alt="logo" width="33" height="33"/>
-            <img tooltip="Angular" flow="top" src={angular} alt="logo" width="33" height="33"/>
+            <div class="skill html">
+            <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
+            <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill sass">
+            <img src={sass} alt="logo" width="33" height="33"/>
+            <div class="tittle">Sass</div>
+          </div>
+          <div class="skill js">
+            <img src={js} alt="logo" width="33" height="33"/>
+            <div class="tittle">Javascript</div>
+          </div>
+          <div class="skill bootstrap">
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Bootstrap</div>
+          </div>
+          <div class="skill angular">
+            <img src={angular} alt="logo" width="33" height="33"/>
+            <div class="tittle">Angular</div>
+          </div>
         </div>
       </div>
 
@@ -140,11 +170,22 @@ export default function SimpleSlider() {
           </a>
         </div>
         <div class="skills">
+          <div class="skill html">
             <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
+            <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill sass">
             <img src={sass} alt="logo" width="33" height="33"/>
-            <img src={js} alt="logo" width="33" height="33"/>
-            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Sass</div>
+          </div>
+          <div class="skill vtex">
             <img src={vtex} alt="logo" width="33" height="33"/>
+            <div class="tittle">Vtex</div>
+          </div>
         </div>
       </div>
 
@@ -170,11 +211,26 @@ export default function SimpleSlider() {
           </a>
         </div>
         <div class="skills">
+          <div class="skill html">
             <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
             <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill js">
             <img src={js} alt="logo" width="33" height="33"/>
+            <div class="tittle">Javascript</div>
+          </div>
+          <div class="skill bootstrap">
             <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Bootstrap</div>
+          </div>
+          <div class="skill wordpress">
             <img src={wordpress} alt="logo" width="33" height="33"/>
+            <div class="tittle">WordPress</div>
+          </div>
         </div>
       </div>
 
@@ -190,11 +246,22 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
+          <div class="skill html">
             <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
+            <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill sass">
             <img src={sass} alt="logo" width="33" height="33"/>
-            <img src={js} alt="logo" width="33" height="33"/>
-            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Sass</div>
+          </div>
+          <div class="skill vtex">
             <img src={vtex} alt="logo" width="33" height="33"/>
+            <div class="tittle">Vtex</div>
+          </div>
         </div>
       </div>
 
@@ -210,9 +277,22 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
+          <div class="skill html">
             <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
             <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill bootstrap">
+            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Bootstrap</div>
+          </div>
+          <div class="skill wordpress">
             <img src={wordpress} alt="logo" width="33" height="33"/>
+            <div class="tittle">WordPress</div>
+          </div>
         </div>
       </div>
 
@@ -232,11 +312,30 @@ export default function SimpleSlider() {
           Ver Prototipo
         </a>
         <div class="skills">
+            <div class="skill html">
             <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
             <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill sass">
+            <img src={sass} alt="logo" width="33" height="33"/>
+            <div class="tittle">Sass</div>
+          </div>
+          <div class="skill js">
             <img src={js} alt="logo" width="33" height="33"/>
+            <div class="tittle">Javascript</div>
+          </div>
+          <div class="skill bootstrap">
             <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Bootstrap</div>
+          </div>
+          <div class="skill angular">
             <img src={angular} alt="logo" width="33" height="33"/>
+            <div class="tittle">Angular</div>
+          </div>
         </div>
       </div>
 
@@ -252,11 +351,30 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
+          <div class="skill html">
             <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
             <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill sass">
+            <img src={sass} alt="logo" width="33" height="33"/>
+            <div class="tittle">Sass</div>
+          </div>
+          <div class="skill js">
             <img src={js} alt="logo" width="33" height="33"/>
+            <div class="tittle">Javascript</div>
+          </div>
+          <div class="skill bootstrap">
             <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Bootstrap</div>
+          </div>
+          <div class="skill wordpress">
             <img src={wordpress} alt="logo" width="33" height="33"/>
+            <div class="tittle">WordPress</div>
+          </div>
         </div>
       </div>
 
@@ -272,9 +390,18 @@ export default function SimpleSlider() {
           Ir a la landing
         </a>
         <div class="skills">
+          <div class="skill html">
             <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
             <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill bootstrap">
             <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Bootstrap</div>
+          </div>
         </div>
       </div>
 
@@ -290,10 +417,22 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
+          <div class="skill html">
             <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
             <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill bootstrap">
             <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Bootstrap</div>
+          </div>
+          <div class="skill wordpress">
             <img src={wordpress} alt="logo" width="33" height="33"/>
+            <div class="tittle">WordPress</div>
+          </div>
         </div>
       </div>
 
@@ -309,11 +448,22 @@ export default function SimpleSlider() {
           Ir a la web
         </a>
         <div class="skills">
+          <div class="skill html">
             <img src={html} alt="logo" width="33" height="33"/>
+            <div class="tittle">HTML5</div>
+          </div>
+          <div class="skill css">
+            <img src={css} alt="logo" width="33" height="33"/>
+            <div class="tittle">CSS3</div>
+          </div>
+          <div class="skill sass">
             <img src={sass} alt="logo" width="33" height="33"/>
-            <img src={js} alt="logo" width="33" height="33"/>
-            <img src={bootstrap} alt="logo" width="33" height="33"/>
+            <div class="tittle">Sass</div>
+          </div>
+          <div class="skill vtex">
             <img src={vtex} alt="logo" width="33" height="33"/>
+            <div class="tittle">Vtex</div>
+          </div>
         </div>
       </div>
 

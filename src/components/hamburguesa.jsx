@@ -39,7 +39,7 @@ export default function Hamburguesa() {
           <li>
             <a onClick={() => setOpen(false)} href="#Proyectos">
               <img class="icon-hamburguesa" src={proyectos} width="25" height="25" alt="bakt.cl" />
-              Portafolio</a>
+              Proyectos</a>
           </li>
           <li>
             <a onClick={() => setOpen(false)} href="#Contacto">
